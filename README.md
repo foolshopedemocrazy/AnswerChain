@@ -171,10 +171,6 @@ if they want even stronger security.
 
 ---
 
-✅ **Summary**  
-The system uses **Argon2id, cascade AEAD, Shamir’s Secret Sharing,  
-indistinguishable dummy shares, decoy secrets, critical questions,  
-and a final HMAC gate** to create a multi-layered defense.  
 
 Even in a **total leak scenario**, the true secret remains secure  
 without the exact knowledge answers.  
