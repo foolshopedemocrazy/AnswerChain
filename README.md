@@ -817,6 +817,7 @@ As the sole developer currently working on this project, I am seeking support fr
 
 All contributions are welcome, and I would greatly value any constructive feedback or suggestions for improvement.
 
+If you enjoyed testing the project and found it useful, please consider giving it a star ⭐ — your support is greatly appreciated!
 
 &nbsp;  
 &nbsp;  
