@@ -171,7 +171,7 @@ if they want even stronger security.
 
 ## 10. Uses trusted encryption libraries
 
-# 🔒 Cryptography Library Audits
+🔒 Cryptography Library Audits
 
 ## [pyca/cryptography](https://github.com/pyca/cryptography)
 - **Software audit:** ❓ Unclear  
