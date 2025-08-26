@@ -3,8 +3,7 @@ Restore your secret by answering security question
 <img width="1024" height="1536" alt="b9de21d5-0163-45e5-ad1d-cbdbbdae5295" src="https://github.com/user-attachments/assets/821efd23-6c3e-42b8-ba97-06efbcca1b1c" />
 
 
-About Bitwarden
-
+# About AnswerChain
 An offline, passwordless recovery system where users create their own security questions and answer alternatives to restore secrets securely
 
 
@@ -37,4 +36,3 @@ An offline, passwordless recovery system where users create their own security q
    - The reconstructed secret undergoes a final **Argon2id + HMAC check**.  
    - Only if this verification succeeds is the secret accepted as authentic.  
 
-# About Bitwarden
