@@ -5,7 +5,6 @@ Restore your secret by answering security question
 An offline, passwordless recovery system where users create their own security questions and answer alternatives to restore secrets securely
 
 
-
 █████████████████████████████████████████████████████████████████████████████
 ## 🔑 How it works  
 
@@ -17,7 +16,7 @@ An offline, passwordless recovery system where users create their own security q
    - The derived key is used to encrypt a **Shamir Secret Sharing (SSS)** share with **cascade encryption**:  
      - First layer: **AES-256-GCM**  
      - Second layer: **ChaCha20-Poly1305**  
-   - This dual-layer (cascade) AEAD ensures ciphertexts all have the same structure and strengthens security against single-algorithm weaknesses.  
+   - This dual-layer (cascade) AEAD ensures ciphertexts all have the same structure and strengthens security against single-algorithm weaknesses that the future could present.  
 
 3. **Wrong answers look valid too**  
    - Incorrect answers are not left empty. Instead, they carry **dummy SSS shares**, also Argon2id-hardened and cascade-encrypted (AES-256-GCM + ChaCha20-Poly1305).  
