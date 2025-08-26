@@ -180,7 +180,7 @@ if they want even stronger security.
 🔒 Cryptography Library Audits
 
 ## [pyca/cryptography](https://github.com/pyca/cryptography)
-- **Software audit:** ❓ Unclear  
+- **Software audit:** ❓ Unclear  (but trusted)
 - **Algorithm audit:** ✅ Yes  
 
 ---
