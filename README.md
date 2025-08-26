@@ -1,8 +1,6 @@
 
 <img width="663" height="106" alt="aaaaaa" src="https://github.com/user-attachments/assets/fa509142-9bc1-4507-bfa7-fe9136b3c40e" />
 
-
-# AnswerChain
 Restore your secret by answering security question
 
 ![this](https://github.com/user-attachments/assets/d63faf2e-f282-4743-a3a9-3637ed37883f)
