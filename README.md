@@ -46,7 +46,7 @@ AnswerChain provides an offline, passwordless recovery system that empowers indi
 </p>
 
 
-# Inspiration
+# Threat-model–driven inspiration
 
 
 1️⃣ Public knowledge (online, open to everyone)  
