@@ -235,6 +235,9 @@ Protecting your password manager’s master password
 <details>
   <summary># 🔒 Privacy Protection via Tolerance-Based Authentication for the security questions</summary>
 
+<details>
+  <summary># 🔒 Privacy Protection via Tolerance-Based Authentication for the security questions</summary>
+
 # 🔒 Privacy Protection via Tolerance-Based Authentication for the security questions
 
 ### Example Feature Idea
@@ -324,4 +327,3 @@ Protecting your password manager’s master password
 ✅ **End of Demo Set — clean, minimal, and privacy-preserving.**  
 
 </details>
-
