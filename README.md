@@ -91,7 +91,6 @@ Store/recover seed phrases via **Shamir’s Secret Sharing (SSS)** with **Argon2
 
 Family emergency access  
 Split recovery among relatives (e.g., **2-of-3**) so one trusted person alone can’t unlock, but together they can.  
-█████████████████████████████████████████████████████████████████████████████
 
 
 
