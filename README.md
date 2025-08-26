@@ -5,7 +5,7 @@ README.md
 
     ▶▶ Restore your secret by answering security question 
 
-![Uploading a123.png…]()
+<img width="1536" height="1024" alt="a123" src="https://github.com/user-attachments/assets/09693594-7588-4d16-914f-fcafd90781ad" />
 
 
 
