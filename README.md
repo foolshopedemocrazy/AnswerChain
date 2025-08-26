@@ -1,7 +1,8 @@
 # AnswerChain
 Restore your secret by answering security question
 
-![foto_no_exif_resized](https://github.com/user-attachments/assets/e1110941-cfa6-4bad-b7ab-df9403f38363)
+![this](https://github.com/user-attachments/assets/d63faf2e-f282-4743-a3a9-3637ed37883f)
+
 
 
 # About AnswerChain
