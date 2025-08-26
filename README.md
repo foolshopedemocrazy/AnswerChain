@@ -213,10 +213,10 @@ It adheres to the [OWASP Secure Coding Practices](https://owasp.org/www-project-
 
 ---
 
+12. Potential leak
 
-Even in a **total leak scenario**, the true secret remains secure  
-without the exact knowledge answers.  
-
+During use, the program operates in an inherently sensitive state.
+At rest, however, the kit remains secure—even in the event of a total data leak, the true secret cannot be derived without the exact knowledge-based answers. In fact, the entire system is designed around this very principle of security.
 
 
 
