@@ -11,13 +11,11 @@
 AnswerChain provides an offline, passwordless recovery system that empowers individuals and organizations to restore secrets securely. By allowing users to create their own knowledge-based questions and answer options, secrets can be rebuilt without relying on passwords—protected by modern cryptography to ensure safety and trust.
 
 
-Text above
 
 &nbsp;  
 &nbsp;  
 &nbsp;
 
-Text below
 
 
 
