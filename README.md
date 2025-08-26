@@ -12,14 +12,16 @@ README.md
  # About AnswerChain
 AnswerChain provides an offline, passwordless recovery system that empowers individuals and organizations to restore secrets securely. By allowing users to create their own knowledge-based questions and answer options, secrets can be rebuilt without relying on passwords—protected by modern cryptography to ensure safety and trust.
 
+Is this program secure to use?  
+- This program was developed with extensive AI assistance. While care has been taken to ensure safety, NO SOFTWARE CAN BE GUARANTEED 100% SECURE. At this stage, I would ***NOT RECOMMEND USING THIS PROGRAM UNTIL IT HAS MATURED ENOUGH*** (e.g., gained broader community recognition, reviews, and testing).
+
+
+
+
 
 
 &nbsp;  
 &nbsp;  
-&nbsp;
-
-
-
 
 
 
@@ -90,9 +92,6 @@ Only if this verification succeeds is the secret accepted as authentic.
 
 &nbsp;  
 &nbsp;  
-&nbsp;
-
-
 
 
 # 🔒 Why the Security Questions File (kit) is Secure  
@@ -209,15 +208,8 @@ without the exact knowledge answers.
 
 
 
-
-
-
 &nbsp;  
 &nbsp;  
-&nbsp;
-
-
-
 
 
 
@@ -245,11 +237,8 @@ without the exact knowledge answers.
 
 
 
-
 &nbsp;  
 &nbsp;  
-&nbsp;
-
 
 
 # Use Cases
@@ -269,14 +258,9 @@ Split recovery among relatives (e.g., **2-of-3**) so one trusted person alone ca
 
 Protecting your password manager’s master password  
 
+
 &nbsp;  
 &nbsp;  
-&nbsp;
-
-
-
-
-
 
 
 
@@ -632,24 +616,8 @@ Optional safeguards include contacting trusted relatives or designated parties i
 
 
 
-
-
-
-
-
-
-
-
-
-
-&nbsp;  
 &nbsp;  
 &nbsp;
-
-
-
-
-
 
 
 
@@ -768,17 +736,19 @@ Optional safeguards include contacting trusted relatives or designated parties i
 
 
 
+&nbsp;  
+&nbsp;  
 
 
 
+# FAQ
 
 
+Is this program actively maintained?  
+- Currently, the program is being maintained, but updates may vary depending on user interest and contributions.
 
-
-
-
-
-
+Has this program been audited?  
+- No, the program has not undergone a formal audit. However, if it gains significant popularity, an audit may be considered in the future.
 
 
 
