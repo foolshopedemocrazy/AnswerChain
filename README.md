@@ -283,8 +283,6 @@ Protecting your password manager’s master password
 <details>
   <summary># 🔒 Privacy Protection via Tolerance-Based Authentication for the security questions</summary>
 
-# 🔒 Privacy Protection via Tolerance-Based Authentication for the security questions
-
 ### Example Feature Idea
 **Privacy protection of security questions using tolerance-based authentication.**
 
