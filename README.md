@@ -3,7 +3,7 @@
 
                                           ▶▶ Restore your secret by answering security question ◀◀
 
-![this](https://github.com/user-attachments/assets/d63faf2e-f282-4743-a3a9-3637ed37883f)
+                ![this](https://github.com/user-attachments/assets/d63faf2e-f282-4743-a3a9-3637ed37883f)
 
 
 
