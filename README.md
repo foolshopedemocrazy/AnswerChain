@@ -5,8 +5,8 @@ README.md
 
     ▶▶ Restore your secret by answering security question 
 
+<img width="1536" height="1024" alt="ewfwef" src="https://github.com/user-attachments/assets/01278e8a-1683-46f1-979e-51ae86f54634" />
 
-<img width="612" height="408" alt="a123-removebg-preview" src="https://github.com/user-attachments/assets/24a2efd3-ea26-4c62-9811-85ccb22dc0d3" />
 
 
  # About AnswerChain
