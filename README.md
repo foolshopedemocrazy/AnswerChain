@@ -3,7 +3,7 @@ README.md
 <img width="1048" height="187" alt="AnswerChain" src="https://github.com/user-attachments/assets/bb53db59-469e-4393-8a89-b8bc7ac2adf7" />
 
 
-    ▶▶ Restore your secret by answering security question 
+    ▶▶ Restore your secret by answering security question offline
 
 
 <img width="1536" height="1024" alt="a1122" src="https://github.com/user-attachments/assets/085df38b-f3af-4ccc-91e9-4257d89b2ebd" />
