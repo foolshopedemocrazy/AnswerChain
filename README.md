@@ -8,6 +8,39 @@ README.md
 
 <img width="1536" height="1024" alt="a1122" src="https://github.com/user-attachments/assets/085df38b-f3af-4ccc-91e9-4257d89b2ebd" />
 
+# 📑 Table of Contents
+
+- [About AnswerChain](#about-answerchain)  
+- [Disclaimer](#disclaimer)  
+- [How does it work❓](#how-does-it-work)  
+- [🔒 Why the Security Questions File (kit) is Secure](#-why-the-security-questions-file-kit-is-secure)  
+  - [1. Key Derivation](#1-key-derivation)  
+  - [2. Cascade Encryption](#2-cascade-encryption)  
+  - [3. Secret Splitting (SSS)](#3-secret-splitting-sss)  
+  - [4. Standard vs Critical Questions](#4-standard-vs-critical-questions)  
+  - [5. Wrong Answers and Decoys](#5-wrong-answers-and-decoys)  
+  - [6. Final Verification](#6-final-verification)  
+  - [7. Offline and Passwordless](#7-offline-and-passwordless)  
+  - [8. Leak Resilience](#8-leak-resilience)  
+  - [9. Brute-Force Cost Analysis](#9-brute-force-cost-analysis)  
+- [10. Trusted Cryptographic Libraries](#10-uses-trusted-cryptographic-libraries-and-implementations)  
+- [11. The Code](#11-the-code)  
+- [12. Potential Leak](#12-potential-leak)  
+- [Threat-Model–Driven Inspiration](#threat-modeldriven-inspiration)  
+- [Use Cases](#use-cases)  
+- [🔮 Example Features & Ideas](#example-of-a-features-that-could-be-added-i-need-your-help-for-inspiration)  
+  - [Privacy Protection via Tolerance-Based Authentication](#-privacy-protection-via-tolerance-based-authentication-for-the-security-questions)  
+  - [Server-Side Authentication](#-server-side-authentication)  
+  - [Unified Framework of Human-Centric Authentication](#-unified-framework-of-human-centric-authentication-factors-combining-biometrics-cognition-perception-behavior-and-psychometric-patterns)  
+- [How to Use the Application](#how-to-use-the-application)  
+  - [1. Prepare a Secure Environment](#1-prepare-a-secure-environment)  
+  - [2. Run and Configure the Application](#2-run-and-configure-the-application)  
+  - [3. Verify Your Setup](#3-verify-your-setup)  
+- [Help Me Out ❤️](#help-me-out-)  
+- [FAQ](#faq)  
+- [Contact](#contact)  
+
+
 
  # About AnswerChain
 AnswerChain provides an offline, passwordless recovery system that empowers individuals and organizations to restore secrets securely. By allowing users to create their own knowledge-based questions and answer options, secrets can be rebuilt without relying on passwords—protected by modern cryptography to ensure safety and trust.
