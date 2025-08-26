@@ -92,5 +92,9 @@ Store/recover seed phrases via **Shamir’s Secret Sharing (SSS)** with **Argon2
 Family emergency access  
 Split recovery among relatives (e.g., **2-of-3**) so one trusted person alone can’t unlock, but together they can.  
 
+Protecting password manager master password  
+Securely store the **master password for a password manager** using **Argon2id, cascade encryption (AES-256-GCM + ChaCha20-Poly1305), and SSS**.  
+Even if someone attempts to brute-force or steal it, only the correct threshold of knowledge-based answers will restore it, while decoys ensure attackers can’t tell real from fake.  
+
 
 
