@@ -1,5 +1,7 @@
 
-<img width="663" height="106" alt="aaaaaa" src="https://github.com/user-attachments/assets/fa509142-9bc1-4507-bfa7-fe9136b3c40e" />
+
+<img width="1048" height="187" alt="AnswerChain" src="https://github.com/user-attachments/assets/bb53db59-469e-4393-8a89-b8bc7ac2adf7" />
+
 
 ▶▶ Restore your secret by answering security question ◀◀
 
