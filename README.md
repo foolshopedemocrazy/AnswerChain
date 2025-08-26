@@ -32,7 +32,7 @@ Is this program secure to use?
 
 
 
-## ❓ How it works  
+## How does it work❓
 
 1️⃣. **User defines their own questions**  
 You create your own security questions (e.g., *“What was my first pet’s name?”*)  
