@@ -153,15 +153,15 @@ Redundancy across multiple questions provides resilience and accessibility.
 MASKED-PII PRACTICE PROMPTS — SYNTHETIC IDENTITY
 
 Persona (entirely fabricated):
-• Name: Jonathan "Jono" Carver
-• Birth date: 1992-07-14
-• Phone: +44 7701 234567
-• Email: jon.carver92@example.com
-• Passport: UKR1234567
-• Student ID: AB34927
-• Card: 4539 4512 0398 4312
-• Forum: dark_raven92
-• Licence: B, BE
+Name: Jonathan "Jono" Carver
+Birth date: 1992-07-14
+Phone: +44 7701 234567
+Email: jon.carver92@example.com
+Passport: UKR1234567
+Student ID: AB34927
+Card: 4539 4512 0398 4312
+Forum: dark_raven92
+Licence: B, BE
 
 
 A. NAMES & ALIASES
