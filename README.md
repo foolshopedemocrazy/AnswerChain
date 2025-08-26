@@ -399,6 +399,38 @@ Protecting your password manager’s master password
 <details>
   <summary># 🔒 Server side Authentication</summary>
 
+Features:
+
+Automated Triggers:
+If you fail to respond to a recurring prompt (e.g., an email sent at fixed intervals) within a specified time frame, a predefined action will be triggered. For example, a physical letter could be dispatched with instructions on how to proceed.
+
+Server-Side Security:
+The system can leverage server-side hardware (e.g., HSM modules) to enhance overall security and safeguard cryptographic processes.
+
+Customizable User Conditions:
+It can be programmed with detailed specifications, such as:
+
+Denying authentication if you are under duress (e.g., held against your will).
+
+Allowing decryption only at specific times or intervals.
+
+Triggering auto-destruction of sensitive data if user-defined conditions are met.
+
+Human and AI-Assisted Support:
+Flexible integration of human support teams and/or AI-based assistance tailored to your specific use case.
+
+Controlled Information Flow:
+The system can hold encrypted questions or instructions and release them only after successful authentication. You decide exactly what information is stored server-side.
+
+Contingency Features:
+Optional safeguards include contacting trusted relatives or designated parties if you fail to respond within set time limits.
+
+
+
+
+
+  
+
 
 </details>
 
