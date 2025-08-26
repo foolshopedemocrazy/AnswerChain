@@ -163,79 +163,78 @@ Persona (entirely fabricated):
 • Forum: dark_raven92
 • Licence: B, BE
 
-────────────────────────────────────────────────────────────────────────
+
 A. NAMES & ALIASES
 1) First name with vowels hidden → **J*n*th*n**
 2) Forum handle, digits removed & consonants only → **drkrvn**
 
-────────────────────────────────────────────────────────────────────────
+
 B. DATES & TIME
 3) Birth date (YYYY-MM) → **1992-07**
 4) Birthday day mod 10 (14 → 4) → **4**
 
-────────────────────────────────────────────────────────────────────────
+
 C. LOCATION
 5) Postal code prefix → **SW1**
 6) Country code (ISO-2) → **GB**
 
-────────────────────────────────────────────────────────────────────────
+
 D. CONTACT
 7) Masked email → **jon…@example.com**
 8) Masked phone → **…4567**
 
-────────────────────────────────────────────────────────────────────────
+
 E. GOVERNMENT / INSTITUTIONAL
 9) Passport last 3 chars → **…567**
 10) Student ID format → **^[A-Z]{2}\d{5}$**
 
-────────────────────────────────────────────────────────────────────────
+
 F. FINANCIAL
 11) Card last 4 → **…4312**
 12) IBAN masked (UK) → **GB…12**
 
-────────────────────────────────────────────────────────────────────────
+
 G. WORK / ACADEMIC
 13) Uni email with vowels hidden → **jn.c*rv*r92**
 14) Publications (bucket) → **6–20**
 
-────────────────────────────────────────────────────────────────────────
+
 H. ONLINE ACCOUNTS & DEVICES
 15) GitHub consonants only (joncarver92) → **jncrvr**
 16) Forum last login (MM/YY) → **07/25**
 
-────────────────────────────────────────────────────────────────────────
+
 I. DRIVING LICENCE
 17) Categories → **B, BE**
 18) First issue year → **2010**
 
-────────────────────────────────────────────────────────────────────────
+
 J. DERIVED / TRANSFORMED
 19) SHA-256("Carver|salt42"), first 8 hex → **3a91f2b8**
 20) CRC32(passport tail 34567) → **5D12A4BC**
 
-────────────────────────────────────────────────────────────────────────
+
 K. CONSISTENCY & LINKAGE
 21) Phone tail + passport tail → **567-567**
 22) Initials + birth year → **J.C.-92**
 
-────────────────────────────────────────────────────────────────────────
+
 L. SECURITY QUESTION STYLE
 23) Mother’s maiden initial + father’s name last letter → **L,n**
 24) Favourite colour “purple”, letters 1 & 3 → **p-r**
 
-────────────────────────────────────────────────────────────────────────
+
 M. FORMATS & VALIDATION
 25) Regex for masked phone → **^\+44\s77\d{2}\s\d{6}$**
 26) ISO country/currency → **GB-GBP**
 
-────────────────────────────────────────────────────────────────────────
+
 N. MULTIPLE-CHOICE
 27) Least identifying DOB mask → **Year only (1992)**
 28) Least identifying address mask → **Country only (GB)**
 
-────────────────────────────────────────────────────────────────────────
+
 END OF DEMO SET — CLEAN & MINIMAL MASKED PII
-────────────────────────────────────────────────────────────────────────
 
 
 
@@ -243,7 +242,7 @@ END OF DEMO SET — CLEAN & MINIMAL MASKED PII
 
 
 
-# Request features
+
 
 
 
