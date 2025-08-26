@@ -79,13 +79,6 @@ Only if this verification succeeds is the secret accepted as authentic.
 
 
 
-<p align="left">
-    <a href="https://yourprojectsite.com" target="_blank">
-        <img src="https://yourprojectsite.com/logo.png" alt="AnswerChain" />
-    </a>
-</p>
-
-
 # Threat-model–driven inspiration
 
 
