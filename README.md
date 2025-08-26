@@ -45,3 +45,26 @@ AnswerChain provides an offline, passwordless recovery system that empowers indi
     </a>
 </p>
 
+
+# Inspiration
+
+
+1️⃣ Public knowledge (online, open to everyone)  
+– Examples: facts available on the internet, public records, common trivia.  
+
+2️⃣ Public but restricted knowledge (online, limited to you + authorities)  
+– Examples: government records, official registrations, tax or license info.  
+
+3️⃣ Semi-public online identity knowledge  
+– Examples: your usernames, personal websites, or activity on forums/social media.  
+
+4️⃣ Shared offline knowledge  
+– Information known by you, your family, or close friends (e.g., family traditions, shared experiences).  
+
+5️⃣ Private offline knowledge  
+– Information known only by you and a very small circle of trusted parties.  
+
+6️⃣ Exclusive personal knowledge  
+– Something that only you know, with no online or offline exposure.  
+
+
