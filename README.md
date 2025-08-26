@@ -372,3 +372,33 @@ Protecting your password manager’s master password
 ✅ **End of Demo Set — clean, minimal, and privacy-preserving.**  
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details>
+  <summary># 🔒 Server side Authentication</summary>
+
+
+</details>
+
