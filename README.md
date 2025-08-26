@@ -37,4 +37,4 @@ An offline, passwordless recovery system where users create their own security q
    - The reconstructed secret undergoes a final **Argon2id + HMAC check**.  
    - Only if this verification succeeds is the secret accepted as authentic.  
 
-                                   **ABOUT BITWARDEN**
+# About Bitwarden
