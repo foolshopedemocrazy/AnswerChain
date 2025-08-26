@@ -12,7 +12,6 @@ AnswerChain provides an offline, passwordless recovery system that empowers indi
 
 ## ❓ How it works  
 
-❓ **How it works**
 
 1️⃣. **User defines their own questions**  
 You create your own security questions (e.g., *“What was my first pet’s name?”*)  
