@@ -3,7 +3,7 @@
 <img width="1048" height="187" alt="AnswerChain" src="https://github.com/user-attachments/assets/bb53db59-469e-4393-8a89-b8bc7ac2adf7" />
 
 
-▶▶ Restore your secret by answering security question ◀◀
+    ▶▶ Restore your secret by answering security question 
 
 ![this](https://github.com/user-attachments/assets/d63faf2e-f282-4743-a3a9-3637ed37883f)
 
