@@ -8,7 +8,6 @@ Restore your secret by answering security question
 # About AnswerChain
 AnswerChain provides an offline, passwordless recovery system that empowers individuals and organizations to restore secrets securely. By allowing users to create their own knowledge-based questions and answer options, secrets can be rebuilt without relying on passwords—protected by modern cryptography to ensure safety and trust.
 
-█████████████████████████████████████████████████████████████████████████████
 ## 🔑 How it works  
 
 1. **User defines their own questions**  
