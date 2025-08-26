@@ -44,10 +44,13 @@ Logs the integer input in plain to ensure everything needed is in logs.
 
 import getpass
 from modules.debug_utils import log_debug
-from modules.security_utils import sanitize_input, normalize_text
+from modules.security_utils import sanitize_input  # NOTE: do not import normalize_text here
 
 
 def get_valid_int(prompt, low, high):
+    """
+    Prompt user for an integer in [low..high], returning the validated int.
+    """
     while True:
         print(prompt, end="", flush=True)
         val = input()
@@ -63,12 +66,19 @@ def get_valid_int(prompt, low, high):
 
 
 def get_nonempty_secret(prompt):
+    """
+    Prompt user for a non-empty secret (via getpass).
+    SECURITY FIX: Do NOT normalize high-entropy secrets (no NFKC).
+    Accept bytes-as-UTF-8 string verbatim (strip NULs only). Enforce policy length.
+    """
+    POLICY_MAX = 256  # keep existing policy limit (no transformation)
     while True:
         s = getpass.getpass(prompt)
-        s = sanitize_input(normalize_text(s))
+        # Remove NULs only; preserve everything else (no normalize_text)
+        s = sanitize_input(s)
         if s.strip():
-            if len(s) > 256:
-                s = s[:256]
+            if len(s) > POLICY_MAX:
+                s = s[:POLICY_MAX]
             return s
         print("Cannot be empty.")
         log_debug("Empty secret => re-prompt", level="WARNING")

@@ -39,6 +39,7 @@ This directive is final, binding, and non-negotiable. Any violation or deviation
 #!/usr/bin/env python3
 """
 Basic text normalization, share hashing with SHA3-256, etc.
+Now includes question/answer hashing for Q&A sets.
 """
 
 import unicodedata
@@ -46,14 +47,23 @@ import hashlib
 
 
 def normalize_text(t: str) -> str:
+    """
+    Normalize text to NFKC, limiting length to 256 chars.
+    """
     return unicodedata.normalize('NFKC', t)[:256]
 
 
 def sanitize_input(t: str) -> str:
+    """
+    Remove null chars from the input.
+    """
     return ''.join(ch for ch in t if ch not in "\0")
 
 
 def validate_question(q) -> bool:
+    """
+    Check if a question dict has 'text', 'alternatives', 'correct_answers'.
+    """
     if not isinstance(q, dict):
         return False
     if "text" not in q or "alternatives" not in q:
@@ -63,17 +73,36 @@ def validate_question(q) -> bool:
     if not isinstance(q["alternatives"], list):
         return False
     if "correct_answers" not in q:
-        # default empty
         q["correct_answers"] = []
     return True
 
 
 def hash_share(data: bytes) -> str:
+    """
+    SHA3-256 hash (hex) of a share's byte data.
+    """
     return hashlib.sha3_256(data).hexdigest()
 
 
 def verify_share_hash(data: bytes, expected: str) -> bool:
+    """
+    Verify the share's data matches the expected SHA3-256 hex digest.
+    """
     return hashlib.sha3_256(data).hexdigest() == expected
+
+
+def hash_question_and_answers(qdict: dict) -> str:
+    """
+    Create a stable SHA3-256 hash from:
+    - question text
+    - sorted alternatives
+    - sorted correct_answers
+    """
+    text = qdict["text"]
+    alt_list = sorted(qdict["alternatives"])
+    correct_list = sorted(qdict["correct_answers"])
+    block = text + "\n" + "\n".join(alt_list) + "\n" + "|".join(correct_list)
+    return hashlib.sha3_256(block.encode("utf-8")).hexdigest()
 
 ################################################################################
 # END OF FILE: "security_utils.py"

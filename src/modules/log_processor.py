@@ -150,6 +150,9 @@ def filter_entries(entries: list,
 
 
 def print_plain(entries: list):
+    """
+    Print logs in a human-readable plain format.
+    """
     for e in entries:
         ts = e.get("timestamp", "N/A")
         rid = e.get("run_id", "N/A")

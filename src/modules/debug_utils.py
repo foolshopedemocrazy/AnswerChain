@@ -1,7 +1,4 @@
-################################################################################
-# START OF FILE: "debug_utils.py"
-################################################################################
-
+#!/usr/bin/env python3
 """
 FILENAME:
 "debug_utils.py"
@@ -36,11 +33,6 @@ UNBREAKABLE IMPLEMENTATION
 This directive is final, binding, and non-negotiable. Any violation or deviation is strictly forbidden.
 """
 
-#!/usr/bin/env python3
-"""
-Logs ephemeral keys, ephemeral pass, ephemeral salt, etc.
-"""
-
 import os
 import json
 import uuid
@@ -48,7 +40,8 @@ import inspect
 import threading
 import shutil
 import time
-from datetime import datetime, timedelta
+import traceback
+from datetime import datetime
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent.resolve()
@@ -73,6 +66,9 @@ log_lock = threading.Lock()
 
 
 def get_next_log_counter() -> int:
+    """
+    Find next incremental integer for debug file naming.
+    """
     counter = 1
     for file in DEBUG_COLLECTION_DIR.iterdir():
         if file.is_file() and file.name.startswith("debug_info") and file.name.endswith(".json"):
@@ -91,25 +87,37 @@ def get_timestamp() -> str:
     return datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
 
-def archive_old_logs(days=7):
+def archive_all_existing_logs():
+    """
+    Move all existing debug_info .json and .txt logs from debug_logs/ into debug_logs/archive/.
+    """
     arch = DEBUG_COLLECTION_DIR / "archive"
     arch.mkdir(exist_ok=True)
-    cutoff = datetime.now() - timedelta(days=days)
+    
     for f in DEBUG_COLLECTION_DIR.iterdir():
         if f.is_file() and f.name.startswith("debug_info") and f.suffix in [".json", ".txt"]:
-            mtime = datetime.fromtimestamp(f.stat().st_mtime)
-            if mtime < cutoff:
-                shutil.move(str(f), str(arch / f.name))
+            # Move everything into archive
+            shutil.move(str(f), str(arch / f.name))
 
 
 def ensure_debug_dir():
+    """
+    On each program start:
+      1) Move all existing .json/.txt logs to `archive/`
+      2) Create brand-new JSON/TXT debug log files for this run
+    """
     global DEBUG_FILE_JSON, DEBUG_FILE_TXT
-    archive_old_logs(days=7)
+
+    # 1) Archive *all* existing logs so only new logs remain
+    archive_all_existing_logs()
+
+    # 2) Prepare brand-new log files for this run
     c = get_next_log_counter()
     ts = get_timestamp()
     DEBUG_FILE_JSON = DEBUG_COLLECTION_DIR / f"debug_info{c}_{ts}.json"
-    DEBUG_FILE_TXT = DEBUG_COLLECTION_DIR / f"debug_info{c}_{ts}.txt"
+    DEBUG_FILE_TXT  = DEBUG_COLLECTION_DIR / f"debug_info{c}_{ts}.txt"
 
+    # Write initial record
     start_entry = {
         "timestamp": datetime.now().isoformat(),
         "run_id": RUN_ID,
@@ -191,7 +199,6 @@ def log_crypto_event(operation: str,
                      ephemeral: bool = False):
     if details is None:
         details = {}
-
     crypto_info = {
         "operation": operation,
         "algorithm": algorithm,
@@ -220,6 +227,16 @@ def log_error(msg: str, exc: Exception = None, details=None):
     _do_log("ERROR", "GENERAL", msg, details)
 
 
+def log_exception(exc: Exception, msg: str = "Unhandled exception"):
+    tb_str = traceback.format_exc()
+    details = {
+        "exception_type": type(exc).__name__,
+        "exception_str": str(exc),
+        "traceback": tb_str
+    }
+    _do_log("ERROR", "GENERAL", msg, details)
+
+
 def start_timer() -> float:
     return time.perf_counter()
 
@@ -232,7 +249,7 @@ def append_recovery_guide():
     guide_lines = [
         "-------------------- MANUAL DECRYPTION GUIDE --------------------",
         "1. Identify correct standard & critical picks and gather ephemeral-encrypted partials.",
-        "2. Decrypt each 95% chunk and 5% chunk, then combine => full share.",
+        "2. Decrypt each 95% chunk and 5% chunk (or single 100% chunk). Combine => full share.",
         "3. Provide enough real shares to sss_combine() => base64-decode final secret.",
         "-----------------------------------------------------------------"
     ]
@@ -243,7 +260,3 @@ def append_recovery_guide():
         with open(DEBUG_FILE_TXT, "a", encoding="utf-8") as tf:
             for line in guide_lines:
                 tf.write(line + "\n")
-
-################################################################################
-# END OF FILE: "debug_utils.py"
-################################################################################
