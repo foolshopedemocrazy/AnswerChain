@@ -21,8 +21,8 @@ AnswerChain provides an offline, passwordless recovery system that empowers indi
 Is this program secure to use?  
 - This program was developed with extensive AI assistance. While care has been taken to ensure safety, NO SOFTWARE CAN BE GUARANTEED 100% SECURE. At this stage, I would ***NOT RECOMMEND USING THIS PROGRAM UNTIL IT HAS MATURED ENOUGH*** (e.g., gained broader community recognition, reviews, and testing).
 
-Have you ever coded before?
-- NO!
+Have you had prior experience with coding?
+- No, I have not. This is my first application!
 
 
 
