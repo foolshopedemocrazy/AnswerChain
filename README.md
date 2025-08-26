@@ -86,7 +86,9 @@ The reconstructed secret undergoes a final **Argon2id + HMAC check**.
 Only if this verification succeeds is the secret accepted as authentic.  
 
 
-
+&nbsp;  
+&nbsp;  
+&nbsp;
 
 
 
@@ -208,7 +210,9 @@ without the exact knowledge answers.
 
 
 
-
+&nbsp;  
+&nbsp;  
+&nbsp;
 
 
 
@@ -240,7 +244,9 @@ without the exact knowledge answers.
 
 
 
-
+&nbsp;  
+&nbsp;  
+&nbsp;
 
 
 
