@@ -279,7 +279,7 @@ Protecting your password manager’s master password
 
 
 
-# Example of a feature that could be added (I need your help)!
+# Example of a features that could be added (I need your help for inspiration)!
 
 <details>
   <summary># 🔒 Privacy Protection via Tolerance-Based Authentication for the security questions</summary>
