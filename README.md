@@ -746,6 +746,17 @@ Optional safeguards include contacting trusted relatives or designated parties i
 &nbsp;  
 
 
+# Help me out! ❤️
+
+As the sole developer currently working on this project, I am seeking support from developers with expertise in secure coding, cryptography, and related fields to help further develop and maintain the project.  
+
+All contributions are welcome, and I would greatly value any constructive feedback or suggestions for improvement.
+
+
+&nbsp;  
+&nbsp;  
+
+
 
 # FAQ
 
