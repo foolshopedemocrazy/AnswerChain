@@ -438,7 +438,7 @@ Optional safeguards include contacting trusted relatives or designated parties i
 
 
 <details>
-  <summary># 🔒 SUnified framework of human-centric authentication factors combining biometrics, cognition, perception, behavior, and psychometric patterns</summary>
+  <summary># 🔒 Unified framework of human-centric authentication factors combining biometrics, cognition, perception, behavior, and psychometric patterns</summary>
 
 
 
