@@ -83,6 +83,117 @@ Only if this verification succeeds is the secret accepted as authentic.
 
 
 
+
+# The security features in a nutshell
+
+█████████████████████████████████████████████████████████████████████████████
+# 🔒 Why the Security Questions File is Secure  
+
+---
+
+## 1. Key Derivation  
+Every answer is combined with a random salt and processed through **Argon2id**  
+with enforced high memory cost (≥1 GiB, parallelism pinned to 1).  
+This makes brute-force attacks prohibitively expensive,  
+even for attackers using modern GPUs or ASICs.  
+
+---
+
+## 2. Cascade Encryption  
+Each derived key is used in **cascade encryption**, first with **AES-256-GCM**  
+and then with **ChaCha20-Poly1305**.  
+This guarantees ciphertexts are uniform in structure and provides long-term resilience:  
+even if one cipher is broken in the future, the other still protects the data.  
+
+---
+
+## 3. Secret Splitting (SSS)  
+The protected secret is never stored directly but split into shares using  
+**Shamir’s Secret Sharing (SSS)**.  
+A defined threshold of correct answers must be provided to recombine the secret,  
+while any subset below the threshold reveals absolutely nothing.  
+
+---
+
+## 4. Standard vs. Critical Questions  
+Questions can be **standard** or **critical**.  
+- Standard questions → contribute shares toward the threshold.  
+- Critical questions → must always be answered correctly.  
+
+Secret restoration is **impossible** if even one critical question is wrong,  
+regardless of how many standard answers are correct.  
+
+---
+
+## 5. Wrong Answers and Decoys  
+Wrong answers are indistinguishable from correct ones because they also decrypt into  
+**dummy shares** hardened with Argon2id and cascade AEAD.  
+
+Users can also configure **decoy real answers**, which produce plausible but fake secrets.  
+These protections ensure attackers can never know whether a recovered result is genuine or a decoy.  
+
+---
+
+## 6. Final Verification  
+Once enough shares are collected, the reconstructed secret must pass a  
+**final Argon2id + HMAC verification step**.  
+This prevents tampering and guarantees that only the genuine secret is accepted.  
+
+---
+
+## 7. Offline and Passwordless  
+The entire system is **offline and passwordless**, eliminating risks associated with  
+servers, cloud storage, or a single vulnerable master password.  
+Everything needed for recovery is self-contained.  
+
+---
+
+## 8. Leak Resilience  
+The system is deliberately designed to remain secure **even if the complete file,  
+all ciphertexts, salts, and parameters leak online**.  
+
+Attackers gain no useful advantage because:  
+- Argon2id makes brute-force infeasible.  
+- Cascade AEAD ensures dual-layer protection.  
+- Dummy shares and decoys make answers indistinguishable.  
+- Shamir’s Secret Sharing prevents partial leakage.  
+- Critical questions block recovery without mandatory checkpoints.  
+- The HMAC gate validates authenticity.  
+
+---
+
+## 9. Brute-Force Cost Analysis  
+After setup, the program presents a **brute-force cost analysis**,  
+showing the estimated difficulty of cracking the configuration with modern hardware.  
+
+Users can then adjust Argon2id parameters, thresholds, or question sets  
+if they want even stronger security.  
+
+---
+
+✅ **Summary**  
+The system uses **Argon2id, cascade AEAD, Shamir’s Secret Sharing,  
+indistinguishable dummy shares, decoy secrets, critical questions,  
+and a final HMAC gate** to create a multi-layered defense.  
+
+Even in a **total leak scenario**, the true secret remains secure  
+without the exact knowledge answers.  
+
+█████████████████████████████████████████████████████████████████████████████
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Threat-model–driven inspiration
 
 
