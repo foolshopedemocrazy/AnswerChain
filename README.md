@@ -197,7 +197,6 @@ if they want even stronger security.
 Even in a **total leak scenario**, the true secret remains secure  
 without the exact knowledge answers.  
 
-█████████████████████████████████████████████████████████████████████████████
 
 
 
