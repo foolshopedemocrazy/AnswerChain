@@ -183,7 +183,7 @@ showing the estimated difficulty of cracking the configuration with modern hardw
 Users can then adjust Argon2id parameters, thresholds, or question sets  
 if they want even stronger security.  
 
-## 10. Uses trusted encryption libraries
+## 10. Uses trusted Cryptographic libraries and implementations
 
 🔒 Cryptography Library Audits
 
