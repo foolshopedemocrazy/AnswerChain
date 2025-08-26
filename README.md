@@ -95,7 +95,7 @@ Only if this verification succeeds is the secret accepted as authentic.
 
 
 
-# 🔒 Why the Security Questions File is Secure  
+# 🔒 Why the Security Questions File (kit) is Secure  
 
 ---
 
