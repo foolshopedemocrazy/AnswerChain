@@ -77,19 +77,19 @@ AnswerChain provides an offline, passwordless recovery system that empowers indi
 
 
 
-█████████████████████████████████████████████████████████████████████████████
-## 🔐 Use Cases  
+# Use Cases
 
-### 1. Simplified password restoration (no IT)  
+
+Simplified password restoration (no IT)  
 Employees regain access by answering their own questions — **offline, passwordless**, no helpdesk queue.  
 
-### 2. Memory support (amnesia / cognitive decline)  
+Memory support (amnesia / cognitive decline)  
 Familiar, self-authored prompts help recover vaults without needing to recall a master password.  
 
-### 3. Crypto seed protection  
+Crypto seed protection  
 Store/recover seed phrases via **Shamir’s Secret Sharing (SSS)** with **Argon2id + cascade AEAD**; decoys blunt targeted theft.  
 
-### 4. Family emergency access  
+Family emergency access  
 Split recovery among relatives (e.g., **2-of-3**) so one trusted person alone can’t unlock, but together they can.  
 █████████████████████████████████████████████████████████████████████████████
 
