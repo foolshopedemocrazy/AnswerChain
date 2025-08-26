@@ -12,7 +12,6 @@ README.md
  # About AnswerChain
 AnswerChain provides an offline, passwordless recovery system that empowers individuals and organizations to restore secrets securely. By allowing users to create their own knowledge-based questions and answer options, secrets can be rebuilt without relying on passwords—protected by modern cryptography to ensure safety and trust.
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
 
 
 
@@ -748,6 +747,9 @@ Optional safeguards include contacting trusted relatives or designated parties i
 
 
 # Help me out! ❤️
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
+
 
 As the sole developer currently working on this project, I am seeking support from developers with expertise in secure coding, cryptography, and related fields to help further develop and maintain the project.  
 
