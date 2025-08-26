@@ -203,6 +203,12 @@ if they want even stronger security.
 - **Software audit:** ✅ Yes (audited twice)  
 - **Algorithm audit:** ✅ Yes  
 
+## 11. The code
+
+The program is deliberately lightweight, with a minimal codebase—meaning there’s less surface area for potential vulnerabilities and easier maintainability. In practice, **less code often translates into safer code**.  
+
+It adheres to the [OWASP Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/02-checklist/05-checklist) and incorporates additional industry-recognized best practices to ensure robust, secure, and reliable implementation.  
+
 
 
 ---
