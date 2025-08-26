@@ -16,6 +16,8 @@ AnswerChain provides an offline, passwordless recovery system that empowers indi
 
 
 
+
+
 ## ❓ How it works  
 
 1️⃣. **User defines their own questions**  
@@ -166,6 +168,28 @@ showing the estimated difficulty of cracking the configuration with modern hardw
 
 Users can then adjust Argon2id parameters, thresholds, or question sets  
 if they want even stronger security.  
+
+## 10. Uses trusted encryption libraries
+
+# 🔒 Cryptography Library Audits
+
+## [pyca/cryptography](https://github.com/pyca/cryptography)
+- **Software audit:** ❓ Unclear  
+- **Algorithm audit:** ✅ Yes  
+
+---
+
+## [argon2-cffi](https://github.com/hynek/argon2-cffi)
+- **Software audit:** ❓ Unclear (but trusted). Based on [PHC winner Argon2](https://github.com/P-H-C/phc-winner-argon2), which **has been audited**.  
+- **Algorithm audit:** ✅ Yes  
+
+---
+
+## [Shamir Secret Sharing (privy-io)](https://github.com/privy-io/shamir-secret-sharing)
+- **Software audit:** ✅ Yes (audited twice)  
+- **Algorithm audit:** ✅ Yes  
+
+
 
 ---
 
