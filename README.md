@@ -84,9 +84,7 @@ Only if this verification succeeds is the secret accepted as authentic.
 
 
 
-# The security features in a nutshell
 
-█████████████████████████████████████████████████████████████████████████████
 # 🔒 Why the Security Questions File is Secure  
 
 ---
