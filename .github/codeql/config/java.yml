@@ -5,17 +5,12 @@ queries:
   - uses: security-and-quality
 
 paths:
-  - "src"
-  - "lib"
+  - "src/"
+  - "bridge/"
+  - "lib/"
   - "**/*.java"
 
 paths-ignore:
-  - "src/test"
-  - "test"
-  - "tests"
-  - "**/src/test/**"
-  - "**/*Test.java"
-  - "**/*Tests.java"
   - "target"
   - "build"
   - "**/target/**"
@@ -26,11 +21,8 @@ paths-ignore:
   - "**/*.generated.*"
   - "vendor"
   - "third_party"
-  - ".idea"
-  - "*.iml"
-  - "docs"
-  - "*.md"
 
+# CRITICAL: This must be true to prevent automatic filtering
 disable-default-path-filters: true
 
 # Enable buildless extraction for repositories without standard build files

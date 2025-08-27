@@ -7,3 +7,12 @@ queries:
 paths:
   - "src/"
   - "bridge/"
+  - "**/*.go"
+
+paths-ignore:
+  - "vendor"
+  - "**/vendor/**"
+  - "**/*.pb.go"
+
+# CRITICAL: This must be true to prevent automatic filtering
+disable-default-path-filters: true

@@ -7,3 +7,19 @@ queries:
 paths:
   - "src/"
   - "bridge/"
+  - "**/*.c"
+  - "**/*.cpp"
+  - "**/*.cc"
+  - "**/*.cxx"
+  - "**/*.h"
+  - "**/*.hpp"
+
+paths-ignore:
+  - "build"
+  - "vendor"
+  - "third_party"
+  - "**/*.generated.*"
+  - "**/cmake-build-*/**"
+
+# CRITICAL: This must be true to prevent automatic filtering
+disable-default-path-filters: true

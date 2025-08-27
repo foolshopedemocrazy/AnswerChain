@@ -7,3 +7,19 @@ queries:
 paths:
   - "src/"
   - "bridge/"
+  - "**/*.js"
+  - "**/*.jsx"
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.mjs"
+
+paths-ignore:
+  - "node_modules"
+  - "**/node_modules/**"
+  - "dist"
+  - "build"
+  - "**/*.min.js"
+  - "**/vendor/**"
+
+# CRITICAL: This must be true to prevent automatic filtering
+disable-default-path-filters: true

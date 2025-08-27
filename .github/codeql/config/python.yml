@@ -7,3 +7,15 @@ queries:
 paths:
   - "src/"
   - "bridge/"
+  - "**/*.py"
+
+paths-ignore:
+  - "venv"
+  - ".venv"
+  - "__pycache__"
+  - "**/*.egg-info"
+  - "**/migrations/**"
+  - "**/.tox/**"
+
+# CRITICAL: This must be true to prevent automatic filtering
+disable-default-path-filters: true
