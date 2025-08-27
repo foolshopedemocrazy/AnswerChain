@@ -1,7 +1,7 @@
 # Test requirements with known vulnerabilities
 # DO NOT USE IN PRODUCTION - For testing only
-Flask==0.12.0
-Django==2.2.0
-Jinja2==2.10.0
-cryptography==2.8
-tensorflow==2.0.0
+Flask==2.2.5
+Django==4.2.22
+Jinja2==3.1.6
+cryptography==44.0.1
+tensorflow==2.12.1
