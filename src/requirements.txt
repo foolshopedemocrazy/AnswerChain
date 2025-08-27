@@ -2,6 +2,6 @@
 cryptography==44.0.1
 cffi==1.17.1
 pycparser==2.22
-setuptools==75.8.0
+setuptools==80.9.0
 wheel==0.45.1
 windows-curses==2.4.1
