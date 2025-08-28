@@ -1,18 +1,10 @@
 name: "CodeQL JavaScript Configuration"
-
 queries:
   - uses: security-extended
   - uses: security-and-quality
-
 paths:
   - "src/"
   - "bridge/"
-  - "**/*.js"
-  - "**/*.jsx"
-  - "**/*.ts"
-  - "**/*.tsx"
-  - "**/*.mjs"
-
 paths-ignore:
   - "node_modules"
   - "**/node_modules/**"
@@ -20,6 +12,4 @@ paths-ignore:
   - "build"
   - "**/*.min.js"
   - "**/vendor/**"
-
-# CRITICAL: This must be true to prevent automatic filtering
 disable-default-path-filters: true

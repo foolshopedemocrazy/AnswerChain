@@ -1,15 +1,10 @@
 name: "CodeQL Java Configuration"
-
 queries:
   - uses: security-extended
   - uses: security-and-quality
-
 paths:
   - "src/"
   - "bridge/"
-  - "lib/"
-  - "**/*.java"
-
 paths-ignore:
   - "target"
   - "build"
@@ -21,11 +16,4 @@ paths-ignore:
   - "**/*.generated.*"
   - "vendor"
   - "third_party"
-
-# CRITICAL: This must be true to prevent automatic filtering
 disable-default-path-filters: true
-
-# Enable buildless extraction for repositories without standard build files
-extraction:
-  java:
-    buildless: "true"

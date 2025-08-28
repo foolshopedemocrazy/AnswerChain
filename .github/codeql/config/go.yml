@@ -1,18 +1,12 @@
 name: "CodeQL Go Configuration"
-
 queries:
   - uses: security-extended
   - uses: security-and-quality
-
 paths:
   - "src/"
   - "bridge/"
-  - "**/*.go"
-
 paths-ignore:
   - "vendor"
   - "**/vendor/**"
   - "**/*.pb.go"
-
-# CRITICAL: This must be true to prevent automatic filtering
 disable-default-path-filters: true

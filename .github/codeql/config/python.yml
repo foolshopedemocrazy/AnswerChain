@@ -1,14 +1,10 @@
 name: "CodeQL Python Configuration"
-
 queries:
   - uses: security-extended
   - uses: security-and-quality
-
 paths:
   - "src/"
   - "bridge/"
-  - "**/*.py"
-
 paths-ignore:
   - "venv"
   - ".venv"
@@ -16,6 +12,4 @@ paths-ignore:
   - "**/*.egg-info"
   - "**/migrations/**"
   - "**/.tox/**"
-
-# CRITICAL: This must be true to prevent automatic filtering
 disable-default-path-filters: true
