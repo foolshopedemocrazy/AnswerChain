@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python cache directories
+src/__pycache__/
+src/modules/__pycache__/
+
+# Build artifacts (but allow vendor compiled files)
+*.so
+*.egg-info/
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# But explicitly include vendor compiled files
+!bridge/vendor/**/*.js
+!bridge/vendor/**/*.d.ts
