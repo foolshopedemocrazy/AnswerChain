@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\config\setupcfg.py
+# hypothesis_version: 6.138.7
+
+['#', ',', '.', '1', ';', '=', 'Distribution', 'DistributionMetadata', 'Target', '__', 'attr:', 'author', 'author_email', 'classifier', 'classifiers', 'cmdclass', 'data_files', 'dependency_links', 'description', 'eager_resources', 'entry_points', 'exclude', 'exclude_package_data', 'extras_require', 'file:', 'find:', 'find_namespace:', 'home_page', 'include', 'include_package_data', 'install_requires', 'keywords', 'license', 'license_files', 'long_description', 'maintainer', 'maintainer_email', 'metadata', 'namespace_packages', 'obsoletes', 'options', 'package_data', 'package_dir', 'packages', 'packages.find', 'platform', 'platforms', 'project_urls', 'provides', 'py_modules', 'python_requires', 'scripts', 'setup_requires', 'stacklevel', 'summary', 'true', 'url', 'version', 'where', 'yes', 'zip_safe']

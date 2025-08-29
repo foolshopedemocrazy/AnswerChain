@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\PublicKey\DSA.py
+# hypothesis_version: 6.138.7
+
+[b' ', b'-----', b'ggen', b'ssh-dss', b'ssh-dss ', 128, 160, 224, 256, 1024, 2048, 3072, ' KEY', ',', '1.2.840.10040.4.1', '<%s @0x%x %s>', '>I', 'DER', 'DSA PRIVATE', 'DsaKey', 'ENCRYPTED PRIVATE', 'No version found', 'OpenSSH', 'PEM', 'PRIVATE', 'PUBLIC', 'construct', 'g', 'generate', 'import_key', 'p', 'p(%d)', 'private', 'q', 'x', 'y']

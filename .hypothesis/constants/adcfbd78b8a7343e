@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\config\expand.py
+# hypothesis_version: 6.138.7
+
+['*', '.', '/', '=', '?', '[', ']', '_K', '_V_co', '__init__', '__iter__', '__name__', 'entry-points', 'utf-8', 'where', '{', '}']

@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\cygwinccompiler.py
+# hypothesis_version: 6.138.7
+
+[b'cygwin', '-dumpmachine', '-i', '-o', '-s', '-shared', '.a', '.def', '.dll', '.dll.a', '.exe', '.o', '.rc', '.res', '11.2.0', 'CC', 'CXX', 'Clang', 'EXPORTS', 'GCC', '__GNUC__', 'c++', 'cyg%s%s', 'cygwin', 'does not mention', 'g++', 'gcc', 'lib%s%s', 'mentions', 'mingw32', 'not ok', 'ok', 'uncertain', 'utf-8', 'windres']

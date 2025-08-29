@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\src\modules\rng.py
+# hypothesis_version: 6.138.7
+
+['a must be bytes-like', 'b must be bytes-like', 'n must be int', 'random_bytes', 'secure_compare', 'token_bytes', 'token_hex', 'token_urlsafe']

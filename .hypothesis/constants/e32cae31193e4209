@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\command\egg_info.py
+# hypothesis_version: 6.138.7
+
+[b'.egg-info', ' removing ', '!', '%Y%m%d', '%s==%s', '%s===%s', '*', '**', '.', '.*', '.egg-info', '/', '?', 'D', 'MANIFEST.in', 'SOURCES.txt', '[', '\\Z', ']', '^', '_referenced_files', 'b', 'd', 'deleting %s', 'e', 'egg-base=', 'egg_base', 'egg_info', 'egg_info.writers', 'entry points', 'exclude', 'global-exclude', 'global-include', 'graft', 'include', 'native_libs.txt', 'no-date', 'prune', 'recursive-', 'recursive-exclude', 'recursive-include', 'setup.py', 'tag-build=', 'tag-date', 'top-level names', 'utf-8', 'wb', 'writing %s', 'writing %s to %s', 'zip_safe']

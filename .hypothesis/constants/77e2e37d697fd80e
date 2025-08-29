@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\__init__.py
+# hypothesis_version: 6.138.7
+
+[',\\s*|\\s+', 'Command', 'Distribution', 'Extension', 'InvalidVersion', 'Require', '_Command', '_CommandT', '_vendor', 'add_note', 'backports', 'dependency_links', 'find_packages', 'setup', 'setup_requires', 'setuptools']

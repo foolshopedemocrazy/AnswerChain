@@ -1,0 +1,171 @@
+
+src\CipherForge.py:41:Main flow with mandatory Argon2id usage for all encryption,
+src\CipherForge.py:53:import argon2.low_level
+src\CipherForge.py:54:import argon2.exceptions
+src\CipherForge.py:56:from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+src\CipherForge.py:57:from cryptography.hazmat.primitives.ciphers.aead import ChaCha20Poly1305
+src\CipherForge.py:63:def derive_key_argon2id(password: str,
+src\CipherForge.py:71:    FIXED KDF: use Argon2id RAW output (bytes) with exact hash_len=key_length.
+src\CipherForge.py:79:        f"Starting Argon2id KDF (RAW). pass='{password}', salt(b64)='{ephemeral_info['salt_b64']}'",
+src\CipherForge.py:85:    derived_bytes = argon2.low_level.hash_secret_raw(
+src\CipherForge.py:92:        type=argon2.low_level.Type.ID
+src\CipherForge.py:97:        algorithm="Argon2id",
+src\CipherForge.py:108:            "message": "Argon2id RAW complete. Derived key is in logs.",
+src\CipherForge.py:115:def encrypt_aes256gcm(plaintext: Union[str, bytes, bytearray],
+src\CipherForge.py:121:    AES-256-GCM with optional AAD binding.
+src\CipherForge.py:130:    cipher = Cipher(algorithms.AES(key), modes.GCM(nonce))
+src\CipherForge.py:138:        "alg": "AES-256-GCM",
+src\CipherForge.py:157:        algorithm="AES-256",
+src\CipherForge.py:166:def decrypt_aes256gcm(enc_dict: Dict[str, str], key: bytes, aad: Optional[bytes] = None) -> bytes:
+src\CipherForge.py:174:        algorithm="AES-256",
+src\CipherForge.py:186:    cipher = Cipher(algorithms.AES(key), modes.GCM(nonce, tag))
+src\CipherForge.py:194:def encrypt_chacha20poly1305(plaintext: Union[str, bytes, bytearray],
+src\CipherForge.py:200:    ChaCha20-Poly1305 with optional AAD binding.
+src\CipherForge.py:209:    cipher = ChaCha20Poly1305(key)
+src\CipherForge.py:213:        "alg": "ChaCha20-Poly1305",
+src\CipherForge.py:229:        algorithm="ChaCha20-Poly1305",
+src\CipherForge.py:238:def decrypt_chacha20poly1305(enc_dict: Dict[str, str], key: bytes, aad: Optional[bytes] = None) -> bytes:
+src\CipherForge.py:245:        algorithm="ChaCha20-Poly1305",
+src\CipherForge.py:256:    cipher = ChaCha20Poly1305(key)
+src\CipherForge.py:268:    Wrapper: generate salt if missing; derive 32-byte key using Argon2id RAW.
+src\CipherForge.py:278:    key = derive_key_argon2id(
+src\main.py:37:Main flow with Argon2id-based encryption for per-answer shares using the
+src\main.py:44:- ChaCha20-Poly1305 entries no longer carry a synthetic 'tag' field.
+src\main.py:53:  shuffled catalog of (salt, HMAC(secret)) for *all* secrets (real+decoys). On recovery, we
+src\main.py:58:- **Brute-force estimator upgrade**: Side-by-side with/without Argon2id; shows total trials to
+src\main.py:75:import hmac
+src\main.py:82:from cryptography.hazmat.primitives.kdf.hkdf import HKDF
+src\main.py:83:from cryptography.hazmat.primitives import hashes
+src\main.py:113:    encrypt_aes256gcm,
+src\main.py:114:    decrypt_aes256gcm,
+src\main.py:115:    encrypt_chacha20poly1305,
+src\main.py:116:    decrypt_chacha20poly1305
+src\main.py:177:def _sha3_hex(s: str) -> str:
+src\main.py:178:    return hashlib.sha3_256(s.encode("utf-8")).hexdigest()
+src\main.py:185:    return _sha3_hex(block)
+src\main.py:189:    return _sha3_hex(_norm_for_kit(alt_text))
+src\main.py:204:    Uses Argon2id RAW via derive_or_recover_key wrapper.
+src\main.py:249:        if alg == "chacha20poly1305":
+src\main.py:250:            pt = decrypt_chacha20poly1305(entry, key, aad=aad)
+src\main.py:252:            pt = decrypt_aes256gcm(entry, key, aad=aad)
+src\main.py:267:                "share_sha3_256_hex": shash,
+src\main.py:294:# ---- Argon2 calibration & timing ----
+src\main.py:296:def calibrate_argon2(target_ms: float = 250.0, max_mib: int = 1024) -> tuple[int, int, int, float]:
+src\main.py:299:    until a single Argon2id derivation reaches target_ms.
+src\main.py:325:def estimate_argon2_time_ms(arg_time: int, arg_mem: int, arg_par: int, samples: int = 1) -> float:
+src\main.py:327:    Measure a local Argon2id derivation time for the given parameters.
+src\main.py:391:    acc = hashlib.sha3_256()
+src\main.py:764:    # Argon2 parameters
+src\main.py:765:    arg_time, arg_mem, arg_par = prompt_argon2_parameters()
+src\main.py:766:    log_debug("Argon2id parameters confirmed for kit.",
+src\main.py:818:    # For each secret (real + decoys), store (salt, HMAC(secret)) but do not reveal which is which.
+src\main.py:821:        kdf = HKDF(algorithm=hashes.SHA256(), length=32, salt=salt, info=b"SECQ final-auth v3")
+src\main.py:823:        tag = hmac.new(k_auth, secret_bytes, digestmod="sha256").digest()
+src\main.py:824:        return {"salt": base64.b64encode(salt).decode(), "hmac_sha256": base64.b64encode(tag).decode()}
+src\main.py:843:        if alg_choice == "chacha20poly1305":
+src\main.py:844:            enc = encrypt_chacha20poly1305(plaintext_share, key, aad=aad)
+src\main.py:848:                "algorithm": "chacha20poly1305",
+src\main.py:850:                "kdf": {"type": "argon2id", "t": arg_time, "m": arg_mem, "p": arg_par, "len": 32}
+src\main.py:853:            enc = encrypt_aes256gcm(plaintext_share, key, aad=aad)
+src\main.py:858:                "algorithm": "aes256gcm",
+src\main.py:860:                "kdf": {"type": "argon2id", "t": arg_time, "m": arg_mem, "p": arg_par, "len": 32}
+src\main.py:877:        per_alt_block["s0"] = _enc_one_share(real_share, q_hash, alt_text, secrets.choice(["chacha20poly1305", "aes256gcm"]))
+src\main.py:882:            per_alt_block[f"s{decoy_i}"] = _enc_one_share(dec_share, q_hash, alt_text, secrets.choice(["chacha20poly1305", "aes256gcm"]))
+src\main.py:914:            "argon2_params": {"time_cost": arg_time, "memory_cost": arg_mem, "parallelism": arg_par},
+src\main.py:937:        tf.write("Argon2id Parameters:\n")
+src\main.py:1020:        arg = cfg.get("argon2_params") or {}
+src\main.py:1036:    print("Argon2id Params:")
+src\main.py:1049:                  "argon2": {"time_cost": arg_time, "memory_cost": arg_mem, "parallelism": arg_par},
+src\main.py:1190:                expected = base64.b64decode(entry.get("hmac_sha256", ""))
+src\main.py:1191:                kdf = HKDF(algorithm=hashes.SHA256(), length=32, salt=salt, info=b"SECQ final-auth v3")
+src\main.py:1193:                calc = hmac.new(k_auth, final_secret_text.encode("utf-8"), digestmod="sha256").digest()
+src\main.py:1194:                if hmac.compare_digest(calc, expected):
+src\main.py:1218:# ---------- existing demonstration / combine path (kept; AAD added; ChaCha tag removed) ----------
+src\main.py:1254:def prompt_argon2_parameters():
+src\main.py:1255:    print("\n--- Argon2id Parameter Setup ---")
+src\main.py:1259:        t, m_kib, p, ms = calibrate_argon2()
+src\main.py:1264:        print("Using DEFAULT Argon2id parameters: time_cost=3, memory_cost=262144, parallelism=1")
+src\main.py:1268:        print("Enter custom Argon2id parameters:")
+src\main.py:1272:        print(f"Using CUSTOM Argon2id parameters: time_cost={tc}, memory_cost={mc}, parallelism={pl}")
+src\main.py:1311:    - Compares with Argon2id vs WITHOUT Argon2id.
+src\main.py:1316:    single_guess_ms = estimate_argon2_time_ms(arg_time, arg_mem, arg_par, samples=1)
+src\main.py:1317:    # Assume a tight lower bound for "no Argon2" primitive crypto guess
+src\main.py:1341:    print("\n[WITH Argon2id] per-guess ~{:.3f} ms =>".format(single_guess_ms))
+src\main.py:1346:    print("\n[WITHOUT Argon2id] per-guess ~{:.3f} ms =>".format(single_guess_ms_no_argon))
+src\main.py:1359:# ---------- Demo flow (unchanged UX; AAD added; ChaCha tag removed) ----------
+src\main.py:1528:        arg_time, arg_mem, arg_par = prompt_argon2_parameters()
+src\main.py:1553:            if alg_choice == "chacha20poly1305":
+src\main.py:1554:                enc_obj = encrypt_chacha20poly1305(
+src\main.py:1560:                enc_obj = encrypt_aes256gcm(
+src\main.py:1583:            enc_full = ephemeral_encrypt(sh, q_s["text"], alt_s, secrets.choice(["chacha20poly1305","aes256gcm"]))
+src\main.py:1593:                enc_full = ephemeral_encrypt(sh, q_c["text"], alt_c, secrets.choice(["chacha20poly1305","aes256gcm"]))
+src\main.py:1602:            enc_full = ephemeral_encrypt(sh, q_s["text"], alt_s, secrets.choice(["chacha20poly1305","aes256gcm"]))
+src\main.py:1612:                enc_full = ephemeral_encrypt(sh, q_c["text"], alt_c, secrets.choice(["chacha20poly1305","aes256gcm"]))
+src\main.py:1666:                    if alg == "chacha20poly1305":
+src\main.py:1667:                        dec_pt = decrypt_chacha20poly1305(enc_data, ephemeral_key, aad=aad)
+src\main.py:1669:                        dec_pt = decrypt_aes256gcm(enc_data, ephemeral_key, aad=aad)
+src\main.py:1673:                              details={"share_sha3_256_hex": hash_share(dec_pt),
+src\modules\crypto_backend.py:11:    aes_gcm_encrypt = _BRIDGE.aes_gcm_encrypt
+src\modules\crypto_backend.py:12:    aes_gcm_decrypt = _BRIDGE.aes_gcm_decrypt
+src\modules\crypto_backend.py:13:    chacha20poly1305_encrypt = _BRIDGE.chacha20poly1305_encrypt
+src\modules\crypto_backend.py:14:    chacha20poly1305_decrypt = _BRIDGE.chacha20poly1305_decrypt
+src\modules\crypto_backend.py:15:    xchacha20poly1305_encrypt = _BRIDGE.xchacha20poly1305_encrypt
+src\modules\crypto_backend.py:16:    xchacha20poly1305_decrypt = _BRIDGE.xchacha20poly1305_decrypt
+src\modules\crypto_backend.py:17:    hkdf_sha256 = _BRIDGE.hkdf_sha256
+src\modules\crypto_backend.py:18:    hmac_sha256 = _BRIDGE.hmac_sha256
+src\modules\crypto_backend.py:19:    sha3_256 = _BRIDGE.sha3_256
+src\modules\crypto_backend.py:20:    argon2id = _BRIDGE.argon2id
+src\modules\crypto_backend.py:25:    aes_gcm_encrypt = aes_gcm_decrypt = _todo
+src\modules\crypto_backend.py:26:    chacha20poly1305_encrypt = chacha20poly1305_decrypt = _todo
+src\modules\crypto_backend.py:27:    xchacha20poly1305_encrypt = xchacha20poly1305_decrypt = _todo
+src\modules\crypto_backend.py:28:    hkdf_sha256 = hmac_sha256 = sha3_256 = argon2id = ct_equal = _todo
+src\modules\debug_utils.py:215:        crypto_info["Argon2_Parameters"] = argon_params
+src\modules\noble_bridge.py:37:            out = nb.sha3_256(b'data')
+src\modules\noble_bridge.py:104:    def sha3_256(self, data: bytes) -> bytes:
+src\modules\noble_bridge.py:105:        res = self._rpc('sha3_256', {'data': _b64(data)})
+src\modules\noble_bridge.py:108:    def hmac_sha256(self, key: bytes, data: bytes) -> bytes:
+src\modules\noble_bridge.py:109:        res = self._rpc('hmac_sha256', {'key': _b64(key), 'data': _b64(data)})
+src\modules\noble_bridge.py:112:    def hkdf_sha256(self, ikm: bytes, salt: bytes, info: bytes, length: int) -> bytes:
+src\modules\noble_bridge.py:113:        res = self._rpc('hkdf_sha256', {
+src\modules\noble_bridge.py:118:    # === Argon2id ===
+src\modules\noble_bridge.py:119:    def argon2id(self, password: bytes, salt: bytes, t: int = 2, m: int = 65536, p: int = 1, dkLen: int = 32, version: int = 19) -> bytes:
+src\modules\noble_bridge.py:122:        res = self._rpc('argon2id', {
+src\modules\noble_bridge.py:129:    def aes_gcm_encrypt(self, key: bytes, nonce: bytes, plaintext: bytes, aad: Optional[bytes] = None) -> bytes:
+src\modules\noble_bridge.py:130:        if len(key) != 32: raise ValueError("AES-256-GCM key must be 32 bytes")
+src\modules\noble_bridge.py:131:        if len(nonce) != 12: raise ValueError("AES-GCM nonce must be 12 bytes")
+src\modules\noble_bridge.py:134:        res = self._rpc('aes_gcm_encrypt', args)
+src\modules\noble_bridge.py:137:    def aes_gcm_decrypt(self, key: bytes, nonce: bytes, ciphertext: bytes, aad: Optional[bytes] = None) -> bytes:
+src\modules\noble_bridge.py:138:        if len(key) != 32: raise ValueError("AES-256-GCM key must be 32 bytes")
+src\modules\noble_bridge.py:139:        if len(nonce) != 12: raise ValueError("AES-GCM nonce must be 12 bytes")
+src\modules\noble_bridge.py:142:        res = self._rpc('aes_gcm_decrypt', args)
+src\modules\noble_bridge.py:145:    def chacha20poly1305_encrypt(self, key: bytes, nonce: bytes, plaintext: bytes, aad: Optional[bytes] = None) -> bytes:
+src\modules\noble_bridge.py:146:        if len(key) != 32: raise ValueError("ChaCha20-Poly1305 key must be 32 bytes")
+src\modules\noble_bridge.py:147:        if len(nonce) != 12: raise ValueError("IETF ChaCha20-Poly1305 nonce must be 12 bytes")
+src\modules\noble_bridge.py:150:        res = self._rpc('chacha20poly1305_encrypt', args)
+src\modules\noble_bridge.py:153:    def chacha20poly1305_decrypt(self, key: bytes, nonce: bytes, ciphertext: bytes, aad: Optional[bytes] = None) -> bytes:
+src\modules\noble_bridge.py:154:        if len(key) != 32: raise ValueError("ChaCha20-Poly1305 key must be 32 bytes")
+src\modules\noble_bridge.py:155:        if len(nonce) != 12: raise ValueError("IETF ChaCha20-Poly1305 nonce must be 12 bytes")
+src\modules\noble_bridge.py:158:        res = self._rpc('chacha20poly1305_decrypt', args)
+src\modules\noble_bridge.py:161:    def xchacha20poly1305_encrypt(self, key: bytes, nonce: bytes, plaintext: bytes, aad: Optional[bytes] = None) -> bytes:
+src\modules\noble_bridge.py:162:        if len(key) != 32: raise ValueError("XChaCha20-Poly1305 key must be 32 bytes")
+src\modules\noble_bridge.py:163:        if len(nonce) != 24: raise ValueError("XChaCha20-Poly1305 nonce must be 24 bytes")
+src\modules\noble_bridge.py:166:        res = self._rpc('xchacha20poly1305_encrypt', args)
+src\modules\noble_bridge.py:169:    def xchacha20poly1305_decrypt(self, key: bytes, nonce: bytes, ciphertext: bytes, aad: Optional[bytes] = None) -> bytes:
+src\modules\noble_bridge.py:170:        if len(key) != 32: raise ValueError("XChaCha20-Poly1305 key must be 32 bytes")
+src\modules\noble_bridge.py:171:        if len(nonce) != 24: raise ValueError("XChaCha20-Poly1305 nonce must be 24 bytes")
+src\modules\noble_bridge.py:174:        res = self._rpc('xchacha20poly1305_decrypt', args)
+src\modules\rng.py:16:import hmac
+src\modules\rng.py:87:    Constant-time equality check using hmac.compare_digest.
+src\modules\rng.py:95:    return hmac.compare_digest(a, b)
+src\modules\security_utils.py:41:Basic text normalization, share hashing with SHA3-256, etc.
+src\modules\security_utils.py:82:    SHA3-256 hash (hex) of a share's byte data.
+src\modules\security_utils.py:84:    return hashlib.sha3_256(data).hexdigest()
+src\modules\security_utils.py:89:    Verify the share's data matches the expected SHA3-256 hex digest.
+src\modules\security_utils.py:91:    return hashlib.sha3_256(data).hexdigest() == expected
+src\modules\security_utils.py:96:    Create a stable SHA3-256 hash from:
+src\modules\security_utils.py:105:    return hashlib.sha3_256(block.encode("utf-8")).hexdigest()
+src\modules\split_utils.py:45:- Logs unmasked counts, threshold, share length, x-coordinates, and SHA3-256 of all shares (beta).
+src\modules\split_utils.py:110:                "real_share_sha3_256": real_hashes,
+src\modules\split_utils.py:111:                "dummy_share_sha3_256": dummy_hashes
+src\modules\sss_bridge.py:153:            details={"reconstructed_len": len(out_bytes), "reconstructed_sha3_256": hash_share(out_bytes)},
+

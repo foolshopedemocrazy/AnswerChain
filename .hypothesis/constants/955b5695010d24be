@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Protocol\KDF.py
+# hypothesis_version: 6.138.7
+
+[b'\x00', b'$', b'$2a', b'$2a$', b'OrpheanBeholderScryDoubt', b'\x80', 128, 135, 160, 255, 1000, 4294967295, '>I', 'B', 'Incorrect cost', 'Incorrect length', 'N is too big', 'Unsupported prefix', '_pbkdf2_hmac_assist', 'p or r are too big', 'utf-8']

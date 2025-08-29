@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\PublicKey\_point.py
+# hypothesis_version: 6.138.7
+
+['Curve25519', 'Curve448', 'Ed25519', 'Ed448', 'NIST P-192', 'NIST P-224', 'NIST P-256', 'NIST P-384', 'NIST P-521', 'P-192', 'P-224', 'P-256', 'P-384', 'P-521', 'X25519', 'X448', 'curve25519', 'curve448', 'ed25519', 'ed448', 'nistp192', 'nistp224', 'nistp256', 'nistp384', 'nistp521', 'p192', 'p224', 'p256', 'p384', 'p521', 'prime192v1', 'prime224v1', 'prime256v1', 'prime384v1', 'prime521v1', 'secp192r1', 'secp224r1', 'secp256r1', 'secp384r1', 'secp521r1']

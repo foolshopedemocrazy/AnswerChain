@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\command\build.py
+# hypothesis_version: 6.138.7
+
+['-pydebug', 'Py_GIL_DISABLED', 'b', 'build', 'build-base=', 'build-lib=', 'build-platlib=', 'build-purelib=', 'build-scripts=', 'build-temp=', 'build_clib', 'build_ext', 'build_py', 'build_scripts', 'c', 'compiler=', 'debug', 'e', 'executable=', 'f', 'force', 'g', 'gettotalrefcount', 'help-compiler', 'j', 'lib', 'nt', 'p', 'parallel=', 'plat-name=', 't', 'temp']

@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Hash\keccak.py
+# hypothesis_version: 6.138.7
+
+[224, 256, 384, 512, '%02x', 'Crypto.Hash._keccak', 'Unknown parameters: ', 'data', 'digest_bits', 'digest_bytes', 'update_after_digest']

@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Hash\KMAC128.py
+# hypothesis_version: 6.138.7
+
+[b'KMAC', 168, '%02x', '19', 'MAC check failed', 'Unknown parameters: ', 'custom', 'data', 'key', 'mac_len']

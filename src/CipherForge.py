@@ -288,3 +288,15 @@ def derive_or_recover_key(password: str,
 ################################################################################
 # END OF FILE: "CipherForge.py"
 ################################################################################
+from modules.crypto_shim import (
+    encrypt_aes256gcm, decrypt_aes256gcm,
+    encrypt_chacha20poly1305, decrypt_chacha20poly1305,
+    encrypt_xchacha20poly1305, decrypt_xchacha20poly1305,
+    derive_key_argon2id, hkdf_sha256, hmac_sha256, sha3_256, ct_equal
+)
+from modules.crypto_shim import (
+    encrypt_aes256gcm, decrypt_aes256gcm,
+    encrypt_chacha20poly1305, decrypt_chacha20poly1305,
+    encrypt_xchacha20poly1305, decrypt_xchacha20poly1305,
+    derive_key_argon2id, hkdf_sha256, hmac_sha256, sha3_256, ct_equal
+)

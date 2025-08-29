@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\extension.py
+# hypothesis_version: 6.138.7
+
+['*', ', ', '-C', '-D', '-I', '-L', '-R', '-U', '-Xcompiler', '-Xlinker', '-l', '-rpath', '-u', '.a', '.c', '.c++', '.cc', '.cpp', '.cxx', '.dylib', '.m', '.mm', '.o', '.sl', '.so', '=']

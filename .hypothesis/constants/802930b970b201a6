@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\discovery.py
+# hypothesis_version: 6.138.7
+
+['*', '*.py', '*__pycache__', '-stubs', '.', '/', '[._]*', '[Ss][Cc]onstruct', '__init__.py', 'benchmark', 'benchmarks', 'bin', 'build', 'changelog', 'ci', 'conanfile', 'configuration', 'conftest', 'debian', 'dist', 'doc', 'docs', 'documentation', 'dodo', 'env', 'example', 'examples', 'exercise', 'exercises', 'ez_setup', 'fabfile', 'htmlcov', 'manage', 'manpages', 'modules', 'news', 'newsfragments', 'noxfile', 'packages', 'pavement', 'py_modules', 'python', 'requirements', 'scripts', 'setup', 'site_scons', 'src', 'tasks', 'test', 'tests', 'tools', 'toxfile', 'unit_test', 'unit_tests', 'util', 'utils', 'venv']

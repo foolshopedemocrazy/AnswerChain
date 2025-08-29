@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\sandbox.py
+# hypothesis_version: 6.138.7
+
+[511, '-from', '-to', '.', 'AbstractSandbox', 'Cython', 'DirectorySandbox', 'SandboxViolation', 'U', '_', '__main__', '_distutils_hack', '_saved', 'access', 'chdir', 'chmod', 'chown', 'chroot', 'devnull', 'distutils', 'encodings.', 'exec', 'getcwd', 'java', 'lchown', 'link', 'listdir', 'lstat', 'mkdir', 'mkfifo', 'mknod', 'open', 'os.open', 'pathconf', 'pkg_resources', 'r', 'rU', 'rb', 'readlink', 'remove', 'rename', 'rmdir', 'rt', 'run_setup', 'setuptools', 'startfile', 'stat', 'symlink', 'temp', 'tempnam', 'tmpnam', 'unlink', 'utime']

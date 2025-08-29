@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\core.py
+# hypothesis_version: 6.138.7
+
+['Command', 'Distribution', 'Extension', '\\n', '\\r\\n', '__file__', '__main__', '__name__', 'author', 'author_email', 'classifiers', 'commandline', 'config', 'define_macros', 'depends', 'description', 'distclass', 'download_url', 'error: ', 'export_symbols', 'extra_compile_args', 'extra_link_args', 'extra_objects', 'include_dirs', 'init', 'interrupted', 'keywords', 'language', 'libraries', 'library_dirs', 'license', 'long_description', 'maintainer', 'maintainer_email', 'name', 'obsoletes', 'options', 'platforms', 'provides', 'requires', 'run', 'runtime_library_dirs', 'script_args', 'script_name', 'setup', 'sources', 'swig_opts', 'undef_macros', 'url', 'version']

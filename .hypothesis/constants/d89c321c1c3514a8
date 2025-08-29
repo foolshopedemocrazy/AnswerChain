@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\monkey.py
+# hypothesis_version: 6.138.7
+
+['Jython', '_T', '_UnpatchT', 'distutils', 'get_fullname', 'get_metadata_version', 'read_pkg_file', 'setuptools', 'unpatched', 'write_pkg_file', 'write_pkg_info']

@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\command\build_clib.py
+# hypothesis_version: 6.138.7
+
+['/', 'b', 'build', 'build-clib=', 'build-temp=', 'build_clib', 'build_temp', 'c', 'compiler', 'compiler=', 'debug', 'f', 'force', 'g', 'help-compiler', 'include_dirs', 'macros', 'sources', 't']

@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Protocol\DH.py
+# hypothesis_version: 6.138.7
+
+["'kdf' is mandatory", 'Curve25519', 'Curve448', 'Invalid ECDH point', 'eph_priv', 'eph_pub', 'kdf', 'little', 'static_priv', 'static_pub']

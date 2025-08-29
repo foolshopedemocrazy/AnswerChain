@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Signature\pkcs1_15.py
+# hypothesis_version: 6.138.7
+
+[b'\x00', b'\x00\x01', b'\xff', '1.2.840.113549.2.', 'Invalid signature']

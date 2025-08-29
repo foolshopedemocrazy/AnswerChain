@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\SelfTest\loader.py
+# hypothesis_version: 6.138.7
+
+['#', '%s (#%d)', '%s test (%s)', '0', '[', 'aad', 'acceptable', 'comment', 'ct', 'flags', 'ikm', 'info', 'invalid', 'iv', 'key', 'label', 'msg', 'okm', 'public', 'result', 'salt', 'shared', 'sig', 'tag', 'tcId', 'testGroups', 'tests']

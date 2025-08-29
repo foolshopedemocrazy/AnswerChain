@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Cipher\_mode_siv.py
+# hypothesis_version: 6.138.7
+
+[160, 340282366920938463454151235392765951999, '%02x', 'MAC check failed', 'Missing parameter: ', 'SivMode', 'decrypt', 'digest', 'encrypt', 'key', 'nonce', 'update', 'verify']

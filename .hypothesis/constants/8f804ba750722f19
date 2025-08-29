@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\SelfTest\Hash\common.py
+# hypothesis_version: 6.138.7
+
+[b'\x00\x01\x02', b'\\s+', b'bla', b'\xff', 255, '\x00\x01\x02', '%s #%d: %s', '%s #%d: digest_size', '4556', 'Crypto.Hash.MD5', 'Crypto.Hash.SHA1', 'ascii', 'digest_size', 'new', 'truncate']

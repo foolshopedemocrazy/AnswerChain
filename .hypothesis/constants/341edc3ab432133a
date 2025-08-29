@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\wheel\vendored\packaging\_parser.py
+# hypothesis_version: 6.138.7
+
+["'in' after 'not'", '.', 'AT', 'BOOLOP', 'COMMA', 'END', 'IDENTIFIER', 'IN', 'LEFT_BRACKET', 'LEFT_PARENTHESIS', 'NOT', 'OP', 'QUOTED_STRING', 'RIGHT_BRACKET', 'RIGHT_PARENTHESIS', 'SEMICOLON', 'SPECIFIER', 'URL', 'URL after @', 'URL and whitespace', 'VARIABLE', 'VERSION_PREFIX_TRAIL', 'WS', '_', 'extras', 'in', 'marker expression', 'not in', 'version specifier', 'whitespace after URL']

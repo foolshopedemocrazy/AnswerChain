@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Signature\__init__.py
+# hypothesis_version: 6.138.7
+
+['DSS', 'PKCS1_PSS', 'PKCS1_v1_5', 'eddsa', 'pkcs1_15', 'pss']

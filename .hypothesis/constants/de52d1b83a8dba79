@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\sysconfig.py
+# hypothesis_version: 6.138.7
+
+[' -E', '$', '$$', 'AR', 'ARFLAGS', 'C', 'CC', 'CCSHARED', 'CFLAGS', 'CONF', 'CPP', 'CPPFLAGS', 'CXX', 'CXXFLAGS', 'INCLUDEPY', 'Include', 'LD', 'LDCXXSHARED', 'LDFLAGS', 'LDSHARED', 'Lib', 'Modules', 'PCbuild', 'PY_', 'RANLIB', 'SHLIB_SUFFIX', 'SO', 'Setup', 'Setup.local', '_PYTHON_PROJECT_BASE', '__pypy__', '_home', '_osx_support', 'cygwin', 'darwin', 'include', 'lib', 'lib-python', 'mingw32', 'nt', 'platlibdir', 'posix', 'pypy', 'python', 'ranlib', 'site-packages', 'srcdir', 'surrogateescape', 'unix']

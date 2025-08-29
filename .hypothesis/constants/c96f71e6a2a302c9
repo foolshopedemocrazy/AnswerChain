@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Hash\Poly1305.py
+# hypothesis_version: 6.138.7
+
+[160, '%02x', 'MAC check failed', 'Unknown parameters: ', 'cipher', 'data', 'key', 'nonce']

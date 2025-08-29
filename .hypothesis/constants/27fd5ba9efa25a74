@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_normalization.py
+# hypothesis_version: 6.138.7
+
+['-', '.', '0', '[^A-Z0-9._-]+', '[^A-Z0-9]+', '\\W|^(?=\\d)', '_', 'safe']

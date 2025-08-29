@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\config\pyprojecttoml.py
+# hypothesis_version: 6.138.7
+
+['#', '[tool.distutils]', '_disable_download', '`', 'attr', 'classifiers', 'cmdclass', 'console_scripts', 'content-type', 'data-files', 'dependencies', 'distutils', 'dynamic', 'entry-points', 'exclude-package-data', 'ext-modules', 'file', 'fill_package_dir', 'find', 'gui-scripts', 'gui_scripts', 'include-package-data', 'name', 'package-data', 'package-dir', 'packages', 'project', 'py-modules', 'rb', 'readme', 'root_dir', 'scripts', 'setuptools', 'src_root', 'text', 'text/x-rst', 'tool', 'tools', 'trove-classifier', 'version']

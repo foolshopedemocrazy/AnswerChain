@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\command\bdist_dumb.py
+# hypothesis_version: 6.138.7
+
+['any', 'bdist', 'bdist-dir=', 'bdist_dumb', 'build', 'd', 'dist-dir=', 'dist_dir', 'dumb', 'f', 'format=', 'g', 'group=', 'gztar', 'install', 'installing to %s', 'k', 'keep-temp', 'nt', 'owner=', 'p', 'plat-name=', 'plat_name', 'posix', 'relative', 'skip-build', 'skip_build', 'u', 'zip']

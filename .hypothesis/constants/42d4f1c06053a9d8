@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\unixccompiler.py
+# hypothesis_version: 6.138.7
+
+['+s', '-L', '-Wl,+s', '-Wl,-R', '-Wl,-rpath,', '-Wl,-rpath=', '-cr', '-g', '-isysroot\\s*(\\S+)', '-l', '-o', '-shared', '.C', '.a', '.c', '.cc', '.cpp', '.cxx', '.dll', '.dll.a', '.dylib', '.exe', '.m', '.o', '.so', '.tbd', '/System/', '/usr/', '/usr/local/', '=', 'CC', 'CFLAGS', 'GNULD', 'ar', 'archiver', 'c++', 'cc', 'compiler', 'compiler_cxx', 'compiler_so', 'compiler_so_cxx', 'cyg%s%s', 'cygwin', 'darwin', 'env', 'freebsd', 'g++', 'gcc', 'hp-ux', 'ld_so_aix', 'lib%s%s', 'linker_exe', 'linker_exe_cxx', 'linker_so', 'linker_so_cxx', 'preprocessor', 'ranlib', 'unix', 'yes']

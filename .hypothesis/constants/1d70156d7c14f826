@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Hash\BLAKE2s.py
+# hypothesis_version: 6.138.7
+
+[160, 256, '%02x', 'Crypto.Hash._BLAKE2s', 'MAC check failed', 'Unknown parameters: ', 'data', 'digest_bits', 'digest_bytes', 'key', 'update_after_digest']

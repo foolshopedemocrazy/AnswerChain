@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\wheel\vendored\packaging\_musllinux.py
+# hypothesis_version: 6.138.7
+
+['-', 'Version (\\d+)\\.(\\d+)', '[.-]', '_', '__main__', 'linux-', 'musl', 'musl:', 'not linux', 'plat:', 'rb', 'tags:']

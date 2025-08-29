@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\PublicKey\RSA.py
+# hypothesis_version: 6.138.7
+
+[b'\x00', b' ', b'-----', b'-----BEGIN OPENSSH PRIVATE KEY', b'ssh-rsa', b'ssh-rsa ', 100, 128, 1024, 65537, '%s RSA key at 0x%X', '1.2.840.113549.1.1.1', '>I', 'Ciphertext too large', 'DER', 'OpenSSH', 'PEM', 'PRIVATE KEY', 'PUBLIC KEY', 'Plaintext too large', 'Private', 'Public', 'RSA PRIVATE KEY', 'RsaKey', 'RsaKey(n=%d, e=%d%s)', '_', '_d', 'construct', 'd', 'e', 'generate', 'import_key', 'n', 'oid', 'p', 'q', 'ssh-rsa', 'u']

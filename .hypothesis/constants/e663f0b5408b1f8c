@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\file_util.py
+# hypothesis_version: 6.138.7
+
+[1024, '%s %s -> %s', 'copying', 'hard', 'hard linking', 'moving %s -> %s', 'rb', 'sym', 'symbolically linking', 'utf-8', 'w', 'wb']

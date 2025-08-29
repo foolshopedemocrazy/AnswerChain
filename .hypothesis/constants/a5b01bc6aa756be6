@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\ccompiler.py
+# hypothesis_version: 6.138.7
+
+[511, '-D{}={}', '-c', '-g', '.c', '.cc', '.cpp', '.cxx', '.m', 'BCPPCompiler', 'Borland C++ Compiler', 'CygwinCCompiler', 'MSVCCompiler', 'Microsoft Visual C++', 'Mingw32CCompiler', 'UnixCCompiler', '_lib_extension', '_lib_format', '_msvccompiler', 'a.out', 'bcpp', 'bcppcompiler', 'c', 'c++', 'compiler=', 'cygwin', 'cygwin.*', 'cygwinccompiler', 'distutils.', 'executable', 'mingw32', 'msvc', 'newer', 'nt', 'objc', 'posix', 'shared', 'shared_library', 'shared_object', 'static', 'unix', 'unixccompiler', 'utf-8', 'w', 'zOSCCompiler', 'zos', 'zosccompiler']

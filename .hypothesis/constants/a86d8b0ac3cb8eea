@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\command\sdist.py
+# hypothesis_version: 6.138.7
+
+['#', '(^|{})({})({}).*', ', ', '/', '/|\\\\', 'CVS', 'MANIFEST', 'MANIFEST.in', 'RCS', 'README', 'README.rst', 'README.txt', '\\.bzr', '\\.git', '\\.hg', '\\.svn', '_darcs', 'archive file(s)', 'build', 'build_clib', 'build_ext', 'build_py', 'build_scripts', 'check', 'd', 'dist', 'dist-dir=', 'f', 'force-manifest', 'formats', 'formats=', 'g', 'group=', 'gztar', 'hard', 'help-formats', 'k', 'keep-temp', 'link', 'm', 'manifest-only', 'manifest=', 'metadata-check', 'no-defaults', 'no-prune', 'o', 'owner=', 'prune', 'sdist', 'setup.cfg', 't', 'tar', 'template=', 'test/test*.py', 'tests/test*.py', 'u', 'use-defaults', 'utf-8', 'win32', '|']

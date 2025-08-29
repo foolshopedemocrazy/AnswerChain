@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\command\build_py.py
+# hypothesis_version: 6.138.7
+
+['*.py', '.', '.py', 'O', '__init__', '__init__.py', 'build', 'build-lib=', 'build_lib', 'c', 'compile', 'compile .py to .pyc', 'd', 'f', 'force', 'no-compile', 'optimize=']

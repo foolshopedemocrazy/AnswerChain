@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Math\_IntegerNative.py
+# hypothesis_version: 6.138.7
+
+['Division by zero', 'Incorrect byteorder', 'Integer(%s)', 'Value is composite', 'big', 'little', 'negative bit count']

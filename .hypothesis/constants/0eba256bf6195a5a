@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Cipher\_mode_ocb.py
+# hypothesis_version: 6.138.7
+
+[b'\x00', b'\x01', 128, 160, 192, '%02x', '15sB', 'Keyword missing: ', 'MAC check failed', 'Unknown keywords: ', 'decrypt', 'digest', 'encrypt', 'key', 'mac_len', 'nonce', 'update', 'verify']

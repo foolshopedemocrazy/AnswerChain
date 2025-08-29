@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Util\asn1.py
+# hypothesis_version: 6.138.7
+
+[b'\x00', b'\xff', -128, 127, 128, 255, 256, '.', '>H', 'DerBitString', 'DerBoolean', 'DerInteger', 'DerNull', 'DerObject', 'DerObjectId', 'DerOctetString', 'DerSequence', 'DerSetOf', 'Empty payload', 'Unexpected DER tag', 'Wrong DER tag', '_inner_tag_octet']

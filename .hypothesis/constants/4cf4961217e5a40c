@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\Crypto\Signature\eddsa.py
+# hypothesis_version: 6.138.7
+
+[b'SigEd25519 no Ed25519 collisions', b'SigEd448', 114, 255, 'Ed25519', 'Ed448', 'ed25519', 'ed448', 'little', 'rfc8032']

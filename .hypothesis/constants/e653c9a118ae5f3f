@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_vendor\more_itertools\recipes.py
+# hypothesis_version: 6.138.7
+
+[51183778, 'all_equal', 'batched', 'before_and_after', 'consume', 'convolve', 'dotproduct', 'factor', 'fill', 'first_true', 'flatten', 'grouper', 'ignore', 'index', 'iter_except', 'iter_index', 'matmul', 'ncycles', 'nth', 'nth_combination', 'pad_none', 'padnone', 'pairwise', 'partition', 'polynomial_eval', 'powerset', 'prepend', 'quantify', 'random_combination', 'random_permutation', 'random_product', 'repeatfunc', 'reshape', 'roundrobin', 'sieve', 'sliding_window', 'strict', 'subslices', 'sum_of_squares', 'sumprod', 'tabulate', 'tail', 'take', 'totient', 'transpose', 'triplewise', 'unique', 'unique_everseen', 'unique_justseen']

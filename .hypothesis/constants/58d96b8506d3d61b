@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\archive_util.py
+# hypothesis_version: 6.138.7
+
+['-r', '-rq', '.bz2', '.gz', '.tar', '.xz', '.zip', 'Creating tar archive', 'ZIP file', "adding '%s'", 'bz2', 'bzip2', "bzip2'ed tar-file", 'bztar', "changing into '%s'", 'compress', 'compressed tar file', 'dry_run', 'group', 'gz', 'gzip', "gzip'ed tar-file", 'gztar', 'owner', 'tar', 'w', 'xz', "xz'ed tar-file", 'xztar', 'zip', 'ztar']

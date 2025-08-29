@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\command\config.py
+# hypothesis_version: 6.138.7
+
+['%s', '.c', '.cxx', '/* No body */', 'D', 'I', 'L', 'U', '_configtest', '_configtest.i', 'c', 'c++', 'cc=', 'compiler=', 'define=', 'dump-source', 'failure.', 'include-dirs=', 'int main () {', 'int main (void) { }', 'l', 'libraries=', 'library-dirs=', 'noisy', 'prepare to build', 'removing: %s', 'success!', 'undef=', 'utf-8', 'w', '}']

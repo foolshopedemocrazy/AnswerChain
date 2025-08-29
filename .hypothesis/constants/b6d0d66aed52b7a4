@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\command\_framework_compat.py
+# hypothesis_version: 6.138.7
+
+['--prefix', 'Cellar', 'ENSUREPIP_OPTIONS', '_prefix', 'brew', 'darwin', 'projectbase', '{homebrew_prefix}']

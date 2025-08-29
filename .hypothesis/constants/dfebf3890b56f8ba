@@ -1,0 +1,4 @@
+# file: C:\Users\deskt\Desktop\Project_SECQ_CLI\SECQ_CLI\libs\site-packages\setuptools\_distutils\command\bdist.py
+# hypothesis_version: 6.138.7
+
+['RPM distribution', 'ZIP file', 'b', 'bdist-base=', 'bdist.', 'bdist_dumb', 'bdist_rpm', 'build', "bzip2'ed tar file", 'bztar', 'compressed tar file', 'd', 'dist', 'dist-dir=', 'formats', 'formats=', 'g', 'group=', "gzip'ed tar file", 'gztar', 'help-formats', 'nt', 'owner=', 'p', 'plat-name=', 'posix', 'rpm', 'skip-build', 'tar', 'tar file', 'u', "xz'ed tar file", 'xztar', 'zip', 'ztar']
