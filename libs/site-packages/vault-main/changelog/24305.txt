@@ -1,3 +1,0 @@
-```release-note:bug
-eventlogger: Update library to v0.2.7 to address race condition
-```

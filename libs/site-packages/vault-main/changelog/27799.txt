@@ -1,3 +1,0 @@
-```release-note:change
-consul-template: updated to version 0.39.1
-```

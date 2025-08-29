@@ -1,3 +1,0 @@
-```release-note:bug
-auth/ldap: Fixed an issue where debug level logging was not emitted.
-```

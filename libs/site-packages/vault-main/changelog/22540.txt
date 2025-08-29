@@ -1,3 +1,0 @@
-```release-note:improvement
-events: Allow subscriptions to multiple namespaces
-```

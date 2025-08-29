@@ -1,3 +1,0 @@
-```release-note:bug
-ui: remove user_lockout_config settings for unsupported methods
-```

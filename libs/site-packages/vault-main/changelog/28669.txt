@@ -1,3 +1,0 @@
-```release-note:bug
-core: Fixed panic seen when performing help requests without /v1/ in the URL.
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-http: Include PATCH in the list of allowed CORS methods
-```

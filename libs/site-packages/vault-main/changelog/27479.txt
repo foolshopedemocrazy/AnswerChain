@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Ensure token expired banner displays when batch token expires
-```

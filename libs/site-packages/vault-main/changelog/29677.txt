@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: adds key value pair string inputs as optional form for wrap tool
-```

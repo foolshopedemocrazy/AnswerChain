@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Adds copy button to identity entity, alias and mfa method IDs
-```

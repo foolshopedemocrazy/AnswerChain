@@ -1,3 +1,0 @@
-```release-note:improvement
-auth/aws: add canonical ARN as entity alias option
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Do not disable JSON display toggle for KV version 2 secrets
-```

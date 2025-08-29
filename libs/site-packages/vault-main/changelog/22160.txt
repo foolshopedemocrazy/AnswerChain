@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: display CertificateCard instead of MaskedInput for certificates in PKI
-```

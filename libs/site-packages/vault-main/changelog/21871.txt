@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: update unseal and DR operation token flow components
-```

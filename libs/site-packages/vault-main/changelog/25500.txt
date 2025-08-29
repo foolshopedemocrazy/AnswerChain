@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: add granularity param to sync destinations
-```

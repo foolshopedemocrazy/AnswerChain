@@ -1,3 +1,0 @@
-```release-note:improvement
-secrets/database/hana: Update HANA db client to v1.10.1
-```

@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Replace inline confirm alert inside a popup-menu dropdown with confirm alert modal
-```

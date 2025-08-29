@@ -1,3 +1,0 @@
-```release-note:bug
-audit: Handle a potential panic while formatting audit entries for an audit log
-```

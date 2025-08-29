@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: remove leading slash from KV version 2 secret paths
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-secrets/aws: Add sts_region parameter to root config for STS API calls.
-```

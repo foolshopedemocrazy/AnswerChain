@@ -1,3 +1,0 @@
-```release-note:change
-secrets/kubernetes: Update plugin to v0.7.0
-```

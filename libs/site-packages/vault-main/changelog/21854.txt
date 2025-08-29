@@ -1,3 +1,0 @@
-```release-note:improvement
-core: use Go stdlib functionalities instead of explicit byte/string conversions
-```

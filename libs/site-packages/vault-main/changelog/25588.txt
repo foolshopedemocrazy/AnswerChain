@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: replace popup menu on list items (namespaces, auth items, KMIP, K8S, LDAP)
-```

@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Use Hds::CodeBlock component to replace readonly JsonEditor instances
-```

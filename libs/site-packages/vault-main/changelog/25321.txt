@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Use Hds::Dropdown component to replace list view popup menus
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Update the KV secret data when you change the version you're viewing of a nested secret.
-```

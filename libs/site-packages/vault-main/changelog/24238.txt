@@ -1,3 +1,0 @@
-```release-note:bug
-core/audit: Audit logging a Vault response will now use a 5 second context timeout, separate from the original request.
-```

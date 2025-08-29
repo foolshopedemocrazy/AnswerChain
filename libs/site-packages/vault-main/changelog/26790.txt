@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Refresh model within a namespace on the Secrets Sync overview page.
-```

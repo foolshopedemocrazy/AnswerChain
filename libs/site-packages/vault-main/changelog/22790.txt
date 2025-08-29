@@ -1,3 +1,0 @@
-```release-note:change
-secrets/kv: Update plugin to v0.16.2
-```

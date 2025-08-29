@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: obscure JSON values when KV v2 secret has nested objects
-```

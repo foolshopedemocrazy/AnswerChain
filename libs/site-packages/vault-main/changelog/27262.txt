@@ -1,3 +1,0 @@
-```release-note:improvement
-ui/secrets-sync: Hide Secrets Sync from the sidebar nav if user does not have access to the feature.
-```

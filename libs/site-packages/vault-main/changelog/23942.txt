@@ -1,3 +1,0 @@
-```release-note:bug
-ui: fix broken GUI when accessing from listener with chroot_namespace defined
-```

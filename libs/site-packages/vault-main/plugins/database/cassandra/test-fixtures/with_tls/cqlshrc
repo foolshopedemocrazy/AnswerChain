@@ -1,3 +1,0 @@
-[ssl]
-validate = false
-version = SSLv23

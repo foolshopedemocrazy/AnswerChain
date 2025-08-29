@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Fix link to v2 generic secrets engine from secrets list page.
-```

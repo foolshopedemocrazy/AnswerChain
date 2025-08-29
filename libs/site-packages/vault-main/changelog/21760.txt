@@ -1,3 +1,0 @@
-```release-note:improvement
-core: Fix regexes for `sys/raw/` and `sys/leases/lookup/` to match prevailing conventions
-```

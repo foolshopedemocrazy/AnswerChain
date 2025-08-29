@@ -1,3 +1,0 @@
-```release-note:improvement
-agent: allow users to specify files for child process stdout/stderr
-```

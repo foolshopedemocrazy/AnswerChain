@@ -1,3 +1,0 @@
-```release-note:bug
-ui: call resultant-acl without namespace header when user mounted at root namespace
-```

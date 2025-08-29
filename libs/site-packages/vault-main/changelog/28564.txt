@@ -1,3 +1,0 @@
-```release-note:improvement
-core: log at level ERROR rather than INFO when all seals are unhealthy.
-```

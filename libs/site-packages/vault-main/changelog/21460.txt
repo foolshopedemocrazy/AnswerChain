@@ -1,3 +1,0 @@
-```release-note:feature
-**raft-wal**: Add experimental support for raft-wal, a new backend engine for integrated storage.
-```

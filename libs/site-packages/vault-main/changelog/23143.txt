@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Surface warning banner if UI has stopped auto-refreshing token
-```

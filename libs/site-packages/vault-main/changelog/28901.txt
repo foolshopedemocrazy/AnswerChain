@@ -1,3 +1,0 @@
-```release-note:bug
-secrets/ssh: Return the flag `allow_empty_principals` in the read role api when key_type is "ca"
-```

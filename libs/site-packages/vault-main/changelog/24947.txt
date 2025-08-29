@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Fixed minor bugs with database secrets engine
-```

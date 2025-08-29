@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Increase base font-size from 14px to 16px and update use of rem vs pixels for size variables
-```

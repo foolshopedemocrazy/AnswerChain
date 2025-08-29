@@ -1,3 +1,0 @@
-```release-note:bug
-cli: fixes plugin register CLI failure to error when plugin image doesn't exist
-```

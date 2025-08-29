@@ -1,3 +1,0 @@
-```release-note:improvement
-api: Do not require sudo for API wrapper functions GetAuth and GetAuthWithContext
-```

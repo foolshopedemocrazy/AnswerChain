@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Fix cursor jump on KVv2 json editor that would occur after pressing ENTER.
-```

@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Application static breadcrumbs should be formatted in title case.
-```

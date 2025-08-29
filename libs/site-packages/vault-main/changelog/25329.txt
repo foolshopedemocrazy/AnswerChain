@@ -1,3 +1,0 @@
-```release-note:improvement
-sdk/helper/testcluster: add some new helpers, improve some error messages.
-```

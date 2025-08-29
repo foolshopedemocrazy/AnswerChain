@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: AWS credentials form sets credential_type from backing role
-```

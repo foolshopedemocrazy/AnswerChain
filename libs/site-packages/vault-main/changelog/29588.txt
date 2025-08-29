@@ -1,3 +1,0 @@
-```release-note:bug
-ui: MFA methods now display the namespace path instead of the namespace id.
-```

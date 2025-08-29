@@ -1,3 +1,0 @@
-```release-note:bug
-cli: Fixed a CLI precedence issue where -agent-address didn't override VAULT_AGENT_ADDR as it should
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-raft/autopilot: Fixed panic that may occur during shutdown
-```

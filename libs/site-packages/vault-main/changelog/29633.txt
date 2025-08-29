@@ -1,3 +1,0 @@
-```release-note:bug
-ui/database: Added input field for setting 'skip_import_rotation' when creating a static role 
-```

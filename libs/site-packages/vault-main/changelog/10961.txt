@@ -1,3 +1,0 @@
-```release-note:improvement
-auth/aws: Added support for signed GET requests for authenticating to vault using the aws iam method.
-```

@@ -1,3 +1,0 @@
-```release-note:improvement
-core : Add field that allows rate-limit namespace quotas to be inherited by child namespaces.
-```

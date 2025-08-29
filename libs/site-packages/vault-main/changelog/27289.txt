@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Allow users to wrap inputted data again instead of resetting form
-```

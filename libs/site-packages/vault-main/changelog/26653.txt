@@ -1,3 +1,0 @@
-```release-note:improvement
-ui (enterprise): Update filters on the custom messages list view.
-```

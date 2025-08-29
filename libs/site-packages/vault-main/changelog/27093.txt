@@ -1,3 +1,0 @@
-```release-note:bug
-pki: Fix error in cross-signing using ed25519 keys
-```

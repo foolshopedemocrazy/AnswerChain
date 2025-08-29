@@ -1,3 +1,0 @@
-```release-note:bug
-UI: Fix missing Client Count card when running as a Vault Dedicated cluster
-```

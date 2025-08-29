@@ -1,3 +1,0 @@
-```release-note:change
-auth/ldap: An error will now be returned on login if the number of entries returned from the user DN LDAP search is more than one.
-```

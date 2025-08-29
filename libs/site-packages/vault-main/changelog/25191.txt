@@ -1,3 +1,0 @@
-```release-note:bug
-router: Fix missing lock in MatchingSystemView.
-```

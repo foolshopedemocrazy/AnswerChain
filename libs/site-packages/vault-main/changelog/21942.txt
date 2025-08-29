@@ -1,3 +1,0 @@
-```release-note:improvement
-openapi: Fix generation of correct fields in some rarer cases
-```

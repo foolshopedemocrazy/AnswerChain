@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Fixes issue with no active tab when viewing transit encryption key
-```

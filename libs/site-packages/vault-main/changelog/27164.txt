@@ -1,3 +1,0 @@
-```release-note:change
-secrets/gcp: Update plugin to v0.19.0
-```

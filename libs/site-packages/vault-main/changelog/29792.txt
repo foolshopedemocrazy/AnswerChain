@@ -1,3 +1,0 @@
-```release-note:bug
-core: Fix Azure authentication for seal/managed keys to work for both federated workload identity and managed user identities.  Fixes regression for federated workload identities.
-```

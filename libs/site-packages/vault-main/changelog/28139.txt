@@ -1,3 +1,0 @@
-```release-note:bug
-secrets/database: Skip connection verification on reading existing DB connection configuration
-```

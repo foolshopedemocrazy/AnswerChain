@@ -1,3 +1,0 @@
-```release-note:bug
-core: fix race when updating a mount's route entry tainted status and incoming requests 
-```

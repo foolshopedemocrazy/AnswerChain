@@ -1,3 +1,0 @@
-```release-note:feature
-**Rotate Root for LDAP auth**: Rotate root operations are now supported for the LDAP auth engine.
-```

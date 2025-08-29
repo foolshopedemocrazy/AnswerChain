@@ -1,3 +1,0 @@
-```release-note:bug
-core/seal: Azure seals required client_secret, preventing use of managed service identities and user assigned identities.
-```

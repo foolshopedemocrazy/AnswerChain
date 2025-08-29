@@ -1,3 +1,0 @@
-```release-note:improvement
-auth/approle: seal wrap approle secrets if seal wrap is enabled.
-```

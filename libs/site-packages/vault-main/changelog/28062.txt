@@ -1,3 +1,0 @@
-```release-note:improvement
-core/activity: Ensure client count queries that include the current month return consistent results by sorting the clients before performing estimation 
-```

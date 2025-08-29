@@ -1,3 +1,0 @@
-```release-note:bug
-secrets/transit: Use 'hash_algorithm' parameter if present in HMAC verify requests. Otherwise fall back to deprecated 'algorithm' parameter.
-```

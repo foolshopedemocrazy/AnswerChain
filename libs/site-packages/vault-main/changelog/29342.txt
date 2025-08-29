@@ -1,3 +1,0 @@
-```release-note:bug
-secrets/pki: fixes issue #28749 requiring all chains to be single line of authority.
-```

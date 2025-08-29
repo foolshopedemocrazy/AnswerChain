@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Adds a warning when whitespace is detected in a key of a KV secret
-```

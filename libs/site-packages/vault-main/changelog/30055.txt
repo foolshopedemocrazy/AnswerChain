@@ -1,3 +1,0 @@
-```release-note:improvement
-ui/database: Updating toggle buttons for skip_rotation_import to reverse polarity of values that get displayed versus whats sent to api
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-ui: The UI can now be used to create or update database roles by operator without permission on the database connection.
-```

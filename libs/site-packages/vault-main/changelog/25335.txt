@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: redirect back to current route after reauthentication when token expires
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Fixes policy input toolbar scrolling by default
-```

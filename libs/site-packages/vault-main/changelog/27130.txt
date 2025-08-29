@@ -1,3 +1,0 @@
-```release-note:change
-auth/centrify: Remove the deprecated Centrify auth method plugin
-```

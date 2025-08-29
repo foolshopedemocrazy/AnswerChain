@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Add button to copy secret path in kv v1 and v2 secrets engines
-```

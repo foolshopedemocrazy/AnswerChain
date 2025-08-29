@@ -1,3 +1,0 @@
-```release-note:change
-auth/ldap: No longer return authentication warnings to client.
-```

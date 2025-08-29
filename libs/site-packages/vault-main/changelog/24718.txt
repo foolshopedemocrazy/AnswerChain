@@ -1,3 +1,0 @@
-```release-note:feature
-**Database Event Notifications**: The database plugin now emits event notifications.
-```

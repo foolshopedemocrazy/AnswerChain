@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Do not show resultant-acl banner on namespaces a user has access to
-```

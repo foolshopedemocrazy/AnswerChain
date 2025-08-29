@@ -1,3 +1,0 @@
-```release-note:improvement
-auto-auth: added support for LDAP auto-auth
-```

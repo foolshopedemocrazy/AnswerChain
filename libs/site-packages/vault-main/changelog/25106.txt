@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Allows users to dismiss the resultant-acl banner.
-```

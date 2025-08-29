@@ -1,3 +1,0 @@
-```release-note: enhancement
-auth/userpass: Support supplying of a pre-hashed password instead of the password itself
-```

@@ -1,3 +1,0 @@
-```release-note:improvement
-auth/cert: Adds support for requiring hexadecimal-encoded non-string certificate extension values
-```

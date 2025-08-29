@@ -1,3 +1,0 @@
-```release-note:improvement
-secrets/aws: Add LIST endpoint to the AWS secrets engine static roles.
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-audit: Resolve potential race condition when auditing entries which use SSCT.
-```

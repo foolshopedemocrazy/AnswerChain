@@ -1,3 +1,0 @@
-```release-note:bug
-core: revert Azure wrapper that introduced a regression in Azure auth for seals.
-```

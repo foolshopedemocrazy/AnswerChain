@@ -1,3 +1,0 @@
-```release-note:improvement
-core: add support for reading certain sensitive seal wrap and managed key (enterprise) configuration values from the environment or files.
-```

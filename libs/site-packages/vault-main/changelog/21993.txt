@@ -1,3 +1,0 @@
-```release-note:improvement
-cli: Allow vault CLI HTTP headers to be specified using the JSON-encoded VAULT_HEADERS environment variable
-```

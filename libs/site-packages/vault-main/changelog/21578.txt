@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Add API Explorer link to Sidebar, under Tools.
-```

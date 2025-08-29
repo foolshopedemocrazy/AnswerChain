@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Assumes version 1 for kv engines when options are null because no version is specified
-```

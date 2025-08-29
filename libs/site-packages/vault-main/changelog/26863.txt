@@ -1,3 +1,0 @@
-```release-note:bug
-agent: Correctly constructs kv-v2 secret paths in nested namespaces. 
-```

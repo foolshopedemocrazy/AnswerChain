@@ -1,3 +1,0 @@
-```release-note:bug
-agent: Fixes a high Vault load issue, by restarting the Conusl template server after backing off instead of immediately.
-```

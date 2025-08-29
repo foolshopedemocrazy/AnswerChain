@@ -1,3 +1,0 @@
-```release-note:bug
-audit: Fix bug where use of 'log_raw' option could result in other devices logging raw audit data
-```

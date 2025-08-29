@@ -1,3 +1,0 @@
-```release-note:improvement
-core: Add a new periodic metric to track the number of available policies, `vault.policy.configured.count`.
-```

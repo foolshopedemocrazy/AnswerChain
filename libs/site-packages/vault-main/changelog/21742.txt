@@ -1,3 +1,0 @@
-```release-note:improvement
-storage/dynamodb: Added three permit pool metrics for the DynamoDB backend, `pending_permits`, `active_permits`, and `pool_size`.
-```

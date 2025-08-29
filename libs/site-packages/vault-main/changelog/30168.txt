@@ -1,3 +1,0 @@
-```release-note:bugfix
-secrets/pki: acme header error response no longer includes key subproblems if no subproblems exist.
-```

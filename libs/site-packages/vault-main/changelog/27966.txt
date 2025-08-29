@@ -1,3 +1,0 @@
-```release-note:improvement
-core/metrics: ensure core HA metrics are always output to Prometheus.
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-ui (enterprise): Fixes token renewal to ensure capability checks are performed in the relevant namespace, resolving 'Not authorized' errors for resources that users have permission to access.
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-raft/retry_join: Fix decoding `auto_join` configurations that include escape characters
-```

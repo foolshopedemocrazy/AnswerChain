@@ -1,3 +1,0 @@
-```release-note:bug
-ui: fix navigation items shown to user when chroot_namespace configured
-```

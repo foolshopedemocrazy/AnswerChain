@@ -1,3 +1,0 @@
-```release-note:improvement
-command/server: add `-dev-tls-san` flag to configure subject alternative names for the certificate generated when using `-dev-tls`.
-```

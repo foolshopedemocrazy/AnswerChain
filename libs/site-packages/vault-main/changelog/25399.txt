@@ -1,3 +1,0 @@
-```release-note:bug
-ui: Fix PKI ca_chain display so value can be copied to clipboard 
-```

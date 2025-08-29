@@ -1,3 +1,0 @@
-```release-note:feature
-**Improved KV V2 UI**: Updated and restructured secret engine for KV (version 2 only)
-```

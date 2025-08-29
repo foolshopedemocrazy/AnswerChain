@@ -1,3 +1,0 @@
-```release-note:bug
-api/client: Fix deadlock in client.CloneWithHeaders when used alongside other client methods.
-```

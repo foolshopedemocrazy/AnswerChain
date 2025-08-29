@@ -1,3 +1,0 @@
-```release-note:change
-auth/kubernetes: Update plugin to v0.20.0
-```

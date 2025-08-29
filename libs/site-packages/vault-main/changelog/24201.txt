@@ -1,3 +1,0 @@
-```release-note:change
-events: Source URL is now `vault://{vault node}`
-```

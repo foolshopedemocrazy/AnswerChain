@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Allow users in userpass auth mount to update their own password
-```

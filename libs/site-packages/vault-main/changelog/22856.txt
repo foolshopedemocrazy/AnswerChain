@@ -1,3 +1,0 @@
-```release-note:change
-secrets/ad: Update plugin to v0.16.1
-```

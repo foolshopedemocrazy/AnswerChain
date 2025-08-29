@@ -1,3 +1,0 @@
-```release-note:improvement
-secrets/database: Add support for GCP CloudSQL private IP's.
-```

@@ -1,3 +1,0 @@
-```release-note:improvement
-.release/linux: add LimitCORE=0 to vault.service
-```

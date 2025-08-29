@@ -1,3 +1,0 @@
-```release-note:improvement
-secrets/database: Add new reload/:plugin_name API to reload database plugins by name for a specific mount.
-```

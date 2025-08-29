@@ -1,3 +1,0 @@
-```release-note:improvement
-database/postgres: Add new fields to the plugin's config endpoint for client certificate authentication.
-```

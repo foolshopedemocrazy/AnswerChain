@@ -1,3 +1,0 @@
-```release-note:improvement
-openapi: List operations are now given first-class representation in the OpenAPI document, rather than sometimes being overlaid with a read operation at the same path
-```

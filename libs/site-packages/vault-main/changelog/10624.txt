@@ -1,3 +1,0 @@
-```release-note:improvement
-storage/azure: Updated metadata endpoint to `GetMSIEndpoint`, which supports more than just the metadata service.
-```

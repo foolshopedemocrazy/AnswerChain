@@ -1,3 +1,0 @@
-```release-note:improvement
-api: add support for cloning a Client's tls.Config.
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-core/quotas: Deleting a namespace that contains a rate limit quota no longer breaks replication
-```

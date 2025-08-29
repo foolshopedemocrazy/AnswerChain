@@ -1,3 +1,0 @@
-```release-note:bug
-ui: fix KV v2 details view defaulting to JSON view when secret value includes `{`
-```

@@ -1,3 +1,0 @@
-```release-note:improvement
-website/docs: Updating operator step-down docs to include info about possible failed requests during leader step down.
-```

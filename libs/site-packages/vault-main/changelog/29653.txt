@@ -1,3 +1,0 @@
-```release-note:bug
-api/tokenhelper: Exec token_helper without a shell
-```

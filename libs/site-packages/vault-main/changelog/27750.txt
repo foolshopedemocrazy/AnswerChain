@@ -1,3 +1,0 @@
-```release-note:bug
-core/identity: Fixed an issue where deleted/reassigned entity-aliases were not removed from in-memory database.
-```

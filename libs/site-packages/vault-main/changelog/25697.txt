@@ -1,3 +1,0 @@
-```release-note:bug
-core/login: Fixed a potential deadlock when a login fails and user lockout is enabled.
-```

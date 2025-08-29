@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: implement hashicorp design system [alert](https://helios.hashicorp.design/components/alert) component 
-```

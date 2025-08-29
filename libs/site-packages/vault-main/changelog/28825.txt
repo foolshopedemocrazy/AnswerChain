@@ -1,3 +1,0 @@
-```release-note:improvement
-website/docs: changed outdated reference to consul-helm repository to consul-k8s repository.
-```

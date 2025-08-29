@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Remove deprecated `current_billing_period` from dashboard activity log request
-```

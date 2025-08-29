@@ -1,3 +1,0 @@
-```release-note:feature
-config/listener: allow per-listener configuration setting to disable replication status endpoints.
-```

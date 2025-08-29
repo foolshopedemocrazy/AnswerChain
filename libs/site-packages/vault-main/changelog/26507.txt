@@ -1,3 +1,0 @@
-```release-note:feature
-**Plugin Identity Tokens**: Adds secret-less configuration of AWS auth engine using web identity federation.
-```

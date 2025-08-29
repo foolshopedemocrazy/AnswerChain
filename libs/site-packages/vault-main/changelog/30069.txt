@@ -1,3 +1,0 @@
-```release-note:bug
-identity: reintroduce RPC functionality for group creates, allowing performance standbys to handle external group changes during login and token renewal
-```

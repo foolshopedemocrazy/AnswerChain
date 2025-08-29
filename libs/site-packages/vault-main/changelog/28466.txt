@@ -1,3 +1,0 @@
-```release-note:change
-secrets/ssh: Add a flag, `allow_empty_principals` to allow keys or certs to apply to any user/principal.
-```

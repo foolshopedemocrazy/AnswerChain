@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: remove initial start/end parameters on the activity call for client counts dashboard.
-```

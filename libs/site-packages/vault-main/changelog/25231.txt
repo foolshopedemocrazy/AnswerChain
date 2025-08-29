@@ -1,3 +1,0 @@
-```release-note:change
-secrets/gcpkms: Update plugin to v0.16.0
-```

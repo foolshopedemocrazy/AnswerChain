@@ -1,3 +1,0 @@
-```release-note:improvement
-secrets/transit: Add support for RSA padding scheme pkcs1v15 for encryption
-```

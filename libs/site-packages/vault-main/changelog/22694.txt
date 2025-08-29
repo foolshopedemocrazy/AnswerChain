@@ -1,3 +1,0 @@
-```release-note:bug
-audit: Prevent panic due to nil pointer receiver for audit header formatting.
-```

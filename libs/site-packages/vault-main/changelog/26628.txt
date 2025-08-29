@@ -1,3 +1,0 @@
-```release-note:improvement
-auth/aws: add support for external_ids in AWS assume-role
-```

@@ -1,3 +1,0 @@
-```release-note:bug
-secrets/transit: Fix a race in which responses from the key update api could contain results from another subsequent update
-```

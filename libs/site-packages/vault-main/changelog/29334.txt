@@ -1,3 +1,0 @@
-```release-note:bug
-plugins: Fix a bug that causes zombie dbus-daemon processes on certain systems.
-```

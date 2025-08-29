@@ -1,3 +1,0 @@
-```release-note:feature
-**UI LDAP secrets engine**: Add LDAP secrets engine to the UI.
-```

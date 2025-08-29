@@ -1,3 +1,0 @@
-```release-note:improvement
-secrets/aws: add fallback endpoint and region parameters to sts configuration
-```

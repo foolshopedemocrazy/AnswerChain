@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: Hide dashboard client count card if user does not have permission to view clients.
-```

@@ -1,3 +1,0 @@
-```release-note:improvement
-ui: For AWS and SSH secret engines hide mount configuration details in toggle and display configuration details or cta.
-```
